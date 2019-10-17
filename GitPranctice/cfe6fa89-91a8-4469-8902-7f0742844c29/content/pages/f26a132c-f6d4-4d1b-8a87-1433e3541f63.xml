@@ -1,0 +1,53 @@
+<page id="f26a132c-f6d4-4d1b-8a87-1433e3541f63" name="M" type="MATRIX" version="1.2" category="ASSESSMENT" cuein="" cueout="" showpage="true" disablenav="false" label="M" autoplay="false" isbootstrap="true">
+  <deviceoutput id="cfe6fa89-91a8-4469-8902-7f0742844c29" type="1" label="HTML" master="true" skinreference="" all="yes" image="yes" video="yes" audio="yes" flash="yes" text="yes" notes="yes" transcript="yes" bulletnumbering="yes" autoorganize="yes" bgaudio="yes" bgimage="yes" bgcolor="yes" border="yes" popup="yes" hyperlink="yes" flipover="yes" tables="yes" hotspot="yes" hr="yes" html="yes">
+    <layout repeatbgimage="no" pagetitle="no" width="950" height="400" skinwidth="900" skinheight="400" bg="false" bgcolor="0xFFFFFF" scroll="false" border="0" bordercolor="" bgimage="" bgimagesrc="" bgaudio="" bgaudiosrc="" transcript="" bgalpha="100" bgmediumimage="" bgmediumimagesrc="" bglowimage="" bglowimagesrc="" bgmediumaudio="" bgmediumaudiosrc="" bglowaudio="" bglowaudiosrc="" controls="false" print="no" excludefromsearch="no">
+      <pageobject id="59c67949-d49e-974d-6506-76314b89d09e" type="text" width="830" height="60" scrolling="yes" zindex="0" halign="pixels" valign="pixels" hoffset="0" voffset="0" group="QUESTION" poid="6e399503-7326-2120-bdd3-b1baaacb9710" border="false" bordercolor="0xCCCCCC" thick="1" mediumpoid="" mediumsrc="" lowpoid="" lowsrc="" bgcolor="0xFFFFFF" bg="false" margin="false" marginvalues="0 0 0 0" padding="false" paddingvalues="0 0 0 0" sectionid="c941db9a-3b2c-d633-c2be-3c7b61e7e9b4" columnid="99ca9cb6-b8a9-7803-08c6-652e0884ae94" borderstyle="dashed" />
+      <pageobject id="0582acc2-6426-1657-d830-83c4e0c704a8" type="question" width="830" height="32" zindex="0" voffset="10" hoffset="10" halign="pixels" valign="pixels" group="section" columnid="99ca9cb6-b8a9-7803-08c6-652e0884ae94" sectionid="c941db9a-3b2c-d633-c2be-3c7b61e7e9b4" difficulty="easy" />
+      <pageobject id="c941db9a-3b2c-d633-c2be-3c7b61e7e9b4" type="section" width="99%" height="150" scrolling="yes" zindex="1" halign="pixels" valign="pixels" hoffset="10" voffset="10" group="PAGE" poid="a6adad52-64a5-6512-e78c-ed8b06aaa0c1" border="false" bordercolor="0xCCCCCC" thick="0" mediumpoid="" mediumsrc="" lowpoid="" lowsrc="" bgcolor="0xFFFFFF" bg="false" bgalphasection="100" margin="false" marginvalues="0 0 0 0" padding="false" paddingvalues="0 0 0 0" borderstyle="solid" label="section" />
+      <pageobject id="ed81a830-8729-78b6-4601-06da2a931737" type="matrix" selection="multiple" width="510" height="200" zindex="2" voffset="80" hoffset="15" halign="pixels" valign="pixels" questionWidth="272.7" group="section" margin="false" marginvalues="0 0 0 0" padding="false" paddingvalues="0 0 0 0" columnid="99ca9cb6-b8a9-7803-08c6-652e0884ae94" sectionid="c941db9a-3b2c-d633-c2be-3c7b61e7e9b4">
+        <rows>
+          <question id="3b853d81-2517-e1a0-a58d-97205a1d3c81" label="Question 1" />
+          <question id="8523c860-7e2e-1659-9889-ed4454725e89" label="Question 2" />
+          <question id="26ca5b37-ed5a-cbe6-73ad-56b52a3b090e" label="Question 3" />
+        </rows>
+        <columns>
+          <title id="d24b5131-b587-9758-74e8-83e7b71899bd" label="Group here">
+            <innertitle label="1" />
+            <innertitle label="2" />
+            <innertitle label="3" />
+            <innertitle label="4" />
+            <innertitle label="NA" />
+          </title>
+        </columns>
+      </pageobject>
+    </layout>
+    <timeline showtwindow="true" height="100" width="500" voffset="500" hoffset="50" totaltime="0" />
+    <popups width="500" height="300" hoffset="100" voffset="100" />
+    <rules />
+    <questiontab>
+      <qtype unicode="1" name="Mode Type" type="checkbox">
+        <node id="1" name="Exam Mode" value="true" />
+        <node id="2" name="Review Mode" value="false" />
+        <node id="3" name="Cram Mode" value="false" />
+      </qtype>
+      <qtype unicode="2" name="Categories" type="checkbox">
+        <node id="4" name="Definitions" value="false" />
+        <node id="5" name="Math/Formula" value="false" />
+      </qtype>
+      <qtype unicode="3" name="Importance" type="combobox" select="1" attributeid="6">
+        <node id="1" name="More" value="More" />
+        <node id="2" name="Less" value="Less" />
+      </qtype>
+      <qtype unicode="4" name="Difficulty" type="combobox" select="1" attributeid="7">
+        <node id="1" name="Easy" value="Easy" />
+        <node id="2" name="Medium" value="Medium" />
+        <node id="3" name="Hard" value="Hard" />
+      </qtype>
+      <qtype unicode="5" name="Version" type="combobox" select="1" attributeid="8">
+        <node id="1" name="V1" value="V1" />
+        <node id="2" name="V2" value="V2" />
+        <node id="3" name="V3" value="V3" />
+      </qtype>
+    </questiontab>
+  </deviceoutput>
+</page>

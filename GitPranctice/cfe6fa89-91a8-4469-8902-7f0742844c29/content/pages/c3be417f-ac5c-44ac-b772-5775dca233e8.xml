@@ -1,0 +1,8 @@
+<page id="c3be417f-ac5c-44ac-b772-5775dca233e8" name="New Page" type="Free Form" version="1.2" category="PAGE" cuein="" cueout="" showpage="true" disablenav="false" label="Default" autoplay="false" isbootstrap="true">
+  <deviceoutput id="cfe6fa89-91a8-4469-8902-7f0742844c29" type="1" label="HTML" master="true" skinreference="" all="yes" image="yes" video="yes" audio="yes" flash="yes" text="yes" notes="yes" transcript="yes" bulletnumbering="yes" autoorganize="yes" bgaudio="yes" bgimage="yes" bgcolor="yes" border="yes" popup="yes" hyperlink="yes" flipover="yes" tables="yes" hotspot="yes" hr="yes" html="yes">
+    <layout repeatbgimage="no" pagetitle="no" width="950" height="400" skinwidth="900" skinheight="400" bg="false" bgcolor="0xFFFFFF" scroll="false" border="0" bordercolor="" bgimage="" bgimagesrc="" bgaudio="" bgaudiosrc="" transcript="" bgalpha="100" bgmediumimage="" bgmediumimagesrc="" bglowimage="" bglowimagesrc="" bgmediumaudio="" bgmediumaudiosrc="" bglowaudio="" bglowaudiosrc="" controls="false" print="no" excludefromsearch="no" />
+    <timeline showtwindow="true" height="100" width="500" voffset="500" hoffset="50" totaltime="0" />
+    <popups width="500" height="300" hoffset="100" voffset="100" />
+    <rules />
+  </deviceoutput>
+</page>

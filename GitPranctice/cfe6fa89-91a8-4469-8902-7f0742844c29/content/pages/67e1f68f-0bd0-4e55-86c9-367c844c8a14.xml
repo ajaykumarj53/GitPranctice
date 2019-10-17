@@ -1,0 +1,65 @@
+<page id="67e1f68f-0bd0-4e55-86c9-367c844c8a14" name="DD" type="DRAGANDDROP" version="1.2" category="ASSESSMENT" cuein="" cueout="" showpage="true" disablenav="false" label="DD" autoplay="false" isbootstrap="true">
+  <deviceoutput id="cfe6fa89-91a8-4469-8902-7f0742844c29" type="1" label="HTML" master="true" skinreference="" all="yes" image="yes" video="yes" audio="yes" flash="yes" text="yes" notes="yes" transcript="yes" bulletnumbering="yes" autoorganize="yes" bgaudio="yes" bgimage="yes" bgcolor="yes" border="yes" popup="yes" hyperlink="yes" flipover="yes" tables="yes" hotspot="yes" hr="yes" html="yes">
+    <layout repeatbgimage="no" pagetitle="no" width="950" height="367" skinwidth="900" skinheight="400" bg="false" bgcolor="0xFFFFFF" scroll="false" border="0" bordercolor="" bgimage="" bgimagesrc="" bgaudio="" bgaudiosrc="" transcript="" bgalpha="100" bgmediumimage="" bgmediumimagesrc="" bglowimage="" bglowimagesrc="" bgmediumaudio="" bgmediumaudiosrc="" bglowaudio="" bglowaudiosrc="" controls="false" print="no" excludefromsearch="no">
+      <pageobject id="4db3ba85-c9ae-569d-a4d9-2a6c27132407" type="text" width="830" height="60" scrolling="yes" zindex="0" halign="pixels" valign="pixels" hoffset="0" voffset="0" group="QUESTION" poid="1a7e5a61-d44c-a8e6-3c30-b44c887ea9c1" border="false" bordercolor="0xCCCCCC" thick="1" mediumpoid="" mediumsrc="" lowpoid="" lowsrc="" bgcolor="0xFFFFFF" bg="false" margin="false" marginvalues="0 0 0 0" padding="false" paddingvalues="0 0 0 0" sectionid="c2a45839-43a2-08b8-273b-0d0654660446" columnid="017ee47e-0eab-dc53-a67c-45170041980a" borderstyle="dashed" />
+      <pageobject id="73297360-8642-c678-ba4a-22d6ee86807a" type="text" width="520" height="60" scrolling="yes" zindex="0" halign="pixels" valign="pixels" hoffset="0" voffset="0" group="CORRECTFEEDBACK" poid="46ace1b9-71a5-5703-ba6c-794d884e7406" border="false" bordercolor="0xCCCCCC" thick="1" mediumpoid="" mediumsrc="" lowpoid="" lowsrc="" bgcolor="0xFFFFFF" bg="false" margin="false" marginvalues="0 0 0 0" padding="false" paddingvalues="0 0 0 0" sectionid="c2a45839-43a2-08b8-273b-0d0654660446" columnid="017ee47e-0eab-dc53-a67c-45170041980a" borderstyle="dashed" />
+      <pageobject id="1adc2418-8ae0-c100-8904-84ced427d955" type="text" width="520" height="60" scrolling="yes" zindex="0" halign="pixels" valign="pixels" hoffset="0" voffset="0" group="INCORRECTFEEDBACK" poid="6a1a0a48-5d5d-6ee5-5145-3a3c6bbcc0d3" border="false" bordercolor="0xCCCCCC" thick="1" mediumpoid="" mediumsrc="" lowpoid="" lowsrc="" bgcolor="0xFFFFFF" bg="false" margin="false" marginvalues="0 0 0 0" padding="false" paddingvalues="0 0 0 0" sectionid="c2a45839-43a2-08b8-273b-0d0654660446" columnid="017ee47e-0eab-dc53-a67c-45170041980a" borderstyle="dashed" />
+      <pageobject id="ebaaee43-c898-7569-0ed6-52679ccd5069" type="text" width="520" height="60" scrolling="yes" zindex="0" halign="pixels" valign="pixels" hoffset="0" voffset="0" group="REMEDIATIONFEEDBACK" poid="87e791bc-3a6c-4ba7-c246-3b36a565c3a6" border="false" bordercolor="0xCCCCCC" thick="1" mediumpoid="" mediumsrc="" lowpoid="" lowsrc="" bgcolor="0xFFFFFF" bg="false" margin="false" marginvalues="0 0 0 0" padding="false" paddingvalues="0 0 0 0" sectionid="c2a45839-43a2-08b8-273b-0d0654660446" columnid="017ee47e-0eab-dc53-a67c-45170041980a" borderstyle="dashed" />
+      <pageobject id="412a045b-3d1c-9c55-c018-21e176dc3d48" type="text" width="520" height="60" scrolling="yes" zindex="6" halign="pixels" valign="pixels" hoffset="10" voffset="0" group="section" poid="1db06396-cc44-3a52-b306-b7ec9b110ecd" border="false" bordercolor="0xCCCCCC" thick="1" mediumpoid="" mediumsrc="" lowpoid="" lowsrc="" bgcolor="0xFFFFFF" bg="false" margin="false" marginvalues="0 0 0 0" padding="false" paddingvalues="0 0 0 0" sectionid="cdd5517e-d36b-d31e-e5b2-e9db307a27c9" columnid="8a2849b5-2a22-5986-a5dc-5a12c54520db" borderstyle="dashed" borderradius="1" label="text" />
+      <pageobject id="6d9408b3-2c5c-57b3-e37e-cce382cd046b" type="text" width="520" height="60" scrolling="yes" zindex="8" halign="pixels" valign="pixels" hoffset="10" voffset="0" group="section" poid="9e87781a-e659-aab1-7379-4e9a37330286" border="false" bordercolor="0xCCCCCC" thick="1" mediumpoid="" mediumsrc="" lowpoid="" lowsrc="" bgcolor="0xFFFFFF" bg="false" margin="false" marginvalues="0 0 0 0" padding="false" paddingvalues="0 0 0 0" sectionid="8089be58-959a-5272-2b35-943c119041e2" columnid="42300400-5a53-eced-05b6-8a74db238155" borderstyle="dashed" borderradius="1" label="text" />
+      <pageobject id="c2a45839-43a2-08b8-273b-0d0654660446" type="section" width="99%" height="150" scrolling="yes" zindex="1" halign="pixels" valign="pixels" hoffset="10" voffset="10" group="PAGE" poid="e46ee2be-e492-9772-3963-07c86e3c0024" border="false" bordercolor="0xCCCCCC" thick="0" mediumpoid="" mediumsrc="" lowpoid="" lowsrc="" bgcolor="0xFFFFFF" bg="false" bgalphasection="100" margin="false" marginvalues="0 0 0 0" padding="false" paddingvalues="0 0 0 0" borderstyle="solid" label="section" />
+      <pageobject id="1714ad83-891e-13c4-8db0-c5270b00c1c9" type="question" width="830" height="32" zindex="0" voffset="10" hoffset="10" halign="pixels" valign="pixels" group="section" columnid="017ee47e-0eab-dc53-a67c-45170041980a" sectionid="c2a45839-43a2-08b8-273b-0d0654660446" difficulty="easy" />
+      <pageobject id="cdd5517e-d36b-d31e-e5b2-e9db307a27c9" type="section" width="99%" height="150" scrolling="yes" zindex="5" halign="pixels" valign="pixels" hoffset="10" voffset="50" group="PAGE" poid="a0c798d1-2d33-4075-7bb5-e7d9dcb9b027" border="false" bordercolor="0xCCCCCC" thick="0" mediumpoid="" mediumsrc="" lowpoid="" lowsrc="" bgcolor="0xFFFFFF" bg="false" bgalphasection="100" margin="false" marginvalues="0 0 0 0" padding="false" paddingvalues="0 0 0 0" borderstyle="solid" layerid="c3ea3323-86d8-9487-328a-c08094bcab2c" />
+      <pageobject id="8089be58-959a-5272-2b35-943c119041e2" type="section" width="99%" height="150" scrolling="yes" zindex="7" halign="pixels" valign="pixels" hoffset="10" voffset="50" group="PAGE" poid="737c07b5-e149-64a9-1863-ea8dd8034883" border="false" bordercolor="0xCCCCCC" thick="0" mediumpoid="" mediumsrc="" lowpoid="" lowsrc="" bgcolor="0xFFFFFF" bg="false" bgalphasection="100" margin="false" marginvalues="0 0 0 0" padding="false" paddingvalues="0 0 0 0" borderstyle="solid" layerid="b83b95b3-d985-4a7d-9be5-e38540c814c8" />
+      <pageobject id="d8612a43-401b-85bd-6eb0-683b9976cd66" type="draganddrop" width="520" height="180" zindex="2" voffset="85" hoffset="10" objectColor="0x000000" dropBorder="true" dropFill="true" dropBorderColor="0xff0000" dropFillColor="0xffffff" dropCounter="1" dragCounter="1" halign="pixels" valign="pixels" group="section" resetbutton="true" columnid="017ee47e-0eab-dc53-a67c-45170041980a" sectionid="c2a45839-43a2-08b8-273b-0d0654660446">
+        <data>
+          <text id="23273330-c419-408e-dbaa-ab94c8bea828" label="Text here" width="130" height="25" voffset="10" hoffset="10" poid="8c2b5964-55e7-ae42-8564-661aa7000e1c" />
+        </data>
+        <drops>
+          <drop id="1" target="1" width="130" height="25" voffset="10" hoffset="160" />
+          <drop id="2" type="text" width="130" height="25" voffset="50" target="2" hoffset="160" />
+          <drop id="3" type="text" width="130" height="25" voffset="90" target="2,3" hoffset="160" />
+        </drops>
+        <drags>
+          <drag id="1" type="text" label="drag1" width="130" height="25" voffset="10" hoffset="320" poid="63cc994c-2eb1-35c8-e937-a4a744d62e7c" />
+          <drag id="2" type="text" width="130" height="25" label="drag2" voffset="50" hoffset="320" poid="764592a1-c5da-378a-506a-78a6c96bcd76" />
+          <drag id="3" type="text" width="130" height="25" label="drag3" voffset="90" hoffset="320" poid="e6057825-93d3-b987-d7c7-6641bca21ae0" />
+        </drags>
+      </pageobject>
+      <pageobject id="ceba81dc-d2b5-b765-1852-5e4bb60e1249" type="submit" width="65" height="15" zindex="4" voffset="235" hoffset="10" halign="pixels" valign="pixels" group="section" margin="false" marginvalues="8 0 8 0" padding="false" paddingvalues="0 0 0 0" columnid="017ee47e-0eab-dc53-a67c-45170041980a" sectionid="c2a45839-43a2-08b8-273b-0d0654660446" />
+      <pageobject id="6616707b-35cb-bbde-06b2-3da72cbda70b" type="feedback" width="525" height="55" zindex="3" voffset="236" hoffset="10" halign="pixels" valign="pixels" group="section" margin="false" marginvalues="0 0 0 0" padding="false" paddingvalues="2 7 2 0" columnid="017ee47e-0eab-dc53-a67c-45170041980a" sectionid="c2a45839-43a2-08b8-273b-0d0654660446" />
+    </layout>
+    <timeline showtwindow="true" height="100" width="500" voffset="500" hoffset="50" totaltime="0" />
+    <popups width="500" height="300" hoffset="100" voffset="100" />
+    <rules />
+    <questiontab>
+      <qtype unicode="1" name="Mode Type" type="checkbox">
+        <node id="1" name="Exam Mode" value="true" />
+        <node id="2" name="Review Mode" value="false" />
+        <node id="3" name="Cram Mode" value="false" />
+      </qtype>
+      <qtype unicode="2" name="Categories" type="checkbox">
+        <node id="4" name="Definitions" value="false" />
+        <node id="5" name="Math/Formula" value="false" />
+      </qtype>
+      <qtype unicode="3" name="Importance" type="combobox" select="1" attributeid="6">
+        <node id="1" name="More" value="More" />
+        <node id="2" name="Less" value="Less" />
+      </qtype>
+      <qtype unicode="4" name="Difficulty" type="combobox" select="1" attributeid="7">
+        <node id="1" name="Easy" value="Easy" />
+        <node id="2" name="Medium" value="Medium" />
+        <node id="3" name="Hard" value="Hard" />
+      </qtype>
+      <qtype unicode="5" name="Version" type="combobox" select="1" attributeid="8">
+        <node id="1" name="V1" value="V1" />
+        <node id="2" name="V2" value="V2" />
+        <node id="3" name="V3" value="V3" />
+      </qtype>
+    </questiontab>
+    <layers>
+      <layer id="c3ea3323-86d8-9487-328a-c08094bcab2c" group="hints" title="Hint" width="500" height="250" voffset="65" hoffset="165" bg="true" bgcolor="0xF1F1F1" scroll="false" border="false" bordercolor="0xCCCCCC" bgimage="" bgimagesrc="" bgalpha="100" thick="1" language="english" objectreferenceid="8ddbbc8c-e058-4292-2e28-65c6c187636c" showclosebutton="true" closebuttonposition="righttop" fullscreen="false" />
+      <layer id="b83b95b3-d985-4a7d-9be5-e38540c814c8" group="solution" title="Solution" width="500" height="250" voffset="65" hoffset="165" bg="true" bgcolor="0xF1F1F1" scroll="false" border="false" bordercolor="0xCCCCCC" bgimage="" bgimagesrc="" bgalpha="100" thick="1" language="english" objectreferenceid="1d1bc7d6-4c21-0956-bc91-09188a818c49" showclosebutton="true" closebuttonposition="righttop" fullscreen="false" />
+    </layers>
+  </deviceoutput>
+</page>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tincan xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://instancy.com/learningmodule/cfe6fa89-91a8-4469-8902-7f0742844c29" type="http://adlnet.gov/expapi/activities/course">
+			<name>9 questions</name>
+			<description lang="en-US">9 questions</description>
+			<launch lang="en-us">start.html</launch>
+		</activity>
+	</activities>
+</tincan>
+

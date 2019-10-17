@@ -1,0 +1,126 @@
+<!doctype html>
+<title>Printable version</title><link href="and_style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="styles/styles.css" />
+<script type="text/javascript" src="scripts/services.js"></script>
+<script type="text/javascript" src="scripts/utils.js"></script>
+
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+-->
+</style><body onLoad="tabletext();">
+<script>
+
+// this function is used to display the contentfrom the parent window
+
+
+function unescapeHTML(escapedHTML) {
+  return escapedHTML.replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&amp;/g,'&');
+}
+
+function tabletext()
+	{ 
+	if (document.implementation && document.implementation.createDocument){ 
+	document.getElementById("userresp").innerHTML=window.opener.document.getElementById("instuserresp1").value.replace(/\n/g, '<br />');
+	document.getElementById("Expertresp").innerHTML=window.opener.document.getElementById("instexpertresp").value.replace(/\n/g, '<br />');
+	document.getElementById("topic").textContent=unescapeHTML(window.opener.document.getElementById("pagetitle").innerHTML);
+	document.getElementById("page").textContent=unescapeHTML(window.opener.document.getElementById("pagetitle").innerHTML);
+  }else{
+	
+	document.getElementById("userresp").innerText=window.opener.document.getElementById("instuserresp1").value;
+	document.getElementById("Expertresp").innerText=window.opener.document.getElementById("instexpertresp").value;
+	document.getElementById("topic").innerHTML=window.top.opener.pagetitle.innerHTML
+	document.getElementById("page").innerHTML=window.top.opener.pagetitle.innerHTML
+	
+	  }
+	
+	}
+function printPage()
+	{
+	window.print()
+	}
+</script>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="100%" height="40" valign="top" background="images/printheader.jpg" >
+	<div id="Layer1" style="Z-INDEX:1; WIDTH:98%; margin:10px; HEIGHT:20px" >
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="100%" class="bodytext" id="page" style="font-weight:bold;"></td>
+        </tr>
+      </table>
+    </div></td>
+  </tr>
+  <tr>
+    <td>
+	<table width="98%" height="620" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#FFFFFF">
+    <tr>
+    <td height="20">
+	<table width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+        <tr>
+          <td align="left" class="click"><div align="left"><a href="javascript:printPage();"><img src="images/print.gif" alt="Print" name="Image1" width="77" height="26" border="0" id="Image1" style="margin-right:5px;"></a> </div>          </td>
+          <td width="99%" class="click"><p align="left" class="bodytext">Click to print this page.</p>          </td>
+        </tr>
+      </table>
+	</td>
+  	</tr>
+	<tr>
+	<td height="10"></td>
+	</tr>
+  <tr>
+    <td width="100%" height="20" class="bodytext" id="topic">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="10"><img src="images/horizline.jpg" width="100%" height="10"></td>
+  </tr>
+<!--  <tr>
+    <td valign="top">    
+	<table width="100%" align="center" cellpadding="3" >
+      <tr>
+        <td width="100%"  colspan="3" valign="top" class="bodytext" id="tbldata"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td  height="10"><img src="images/horizline.jpg" width="100%" height="10"></td>
+  </tr>-->
+  <tr>
+    <td width="100%" valign="top" height="60"><table width="100%" align="left" >
+        <tr>
+          <td width="100%" height="20"  colspan="3" valign="top" class="bodytext"><strong>YOUR ANSWER:</strong></td>
+        </tr>
+        <tr>
+          <td colspan="3" valign="top" class="bodytext" id="userresp"></td>
+        </tr>
+      </table>    </td>
+  </tr>
+  <tr>
+    <td  height="10"><img src="images/horizline.jpg" width="100%" height="10"></td>
+  </tr>
+  <tr>
+    <td valign="top" >
+      <table width="100%" align="left">
+        <tr>
+          <td width="100%"   colspan="3" valign="top" class="bodytext"><strong>SUGGESTED RESPONSE:</strong></td>
+        </tr>
+        <tr>
+          <td colspan="3" valign="top" class="bodytext" id="Expertresp"></td>
+        </tr>
+      </table>    </td>
+  </tr>
+
+</table>
+	</td>
+  </tr>
+  <tr>
+          <td  height="40" colspan="2" background="images/printfooter.jpg">&nbsp;</td>
+        </tr>
+</table>
+
+
+</BODY>

@@ -1,0 +1,308 @@
+<html>
+<head>
+    <style>
+        #container_table thead tr:nth-child(1) {
+            background-color: rgb(114, 140, 140);            
+        }
+
+        #container_table th {
+            border: 1px solid #fff;
+        }
+
+        table[id^='container_table'] th {
+            padding: 5px 8px;
+        }
+    </style>
+</head>
+<body>
+    <table id='instratingtable' class='content' width='98%' height='auto' cellpadding='0' cellspacing='0'>
+        <tr>
+            <td valign='top'>
+                <div style='height:15px;'></div>
+                <div id='questiontext' style='position:relative; width:100%; height:auto; line-height:normal; z-index:1px;border:px solid ; left:10px;'> </div>
+
+                <div style='height:20px;'></div>
+
+                <div id="container">
+
+                </div>
+
+
+            </td>
+        </tr>
+    </table>
+    <div id="dynamiccss"></div>
+</body>
+</html>
+
+<script>
+
+
+    var styledef;
+  //  styledef = "<style>@media only screen and (max-width: 480px), (min-device-width: 320px) and (max-device-width: 480px){";
+ //$("#questiontext").text(questionsArray[ratQtn].question);
+
+    //Added by Sunny on 27th October 2016 for INST-27367
+    var qneHtml = questionsArray[ratQtn].question;
+    if (qneHtml != "") {
+        var tempElement = document.createElement("div");
+        $(tempElement).html(qneHtml);
+        $(tempElement).find("a").each(function () {
+            $(this).css({ "color": "#0645AD" });
+          })
+        qneHtml = $(tempElement).html();
+        questionsArray[ratQtn].question = qneHtml;
+        $(tempElement).remove();
+    }
+    //End Sunny
+
+    $("#questiontext").append(questionsArray[ratQtn].question); //Modified by Sunny on 29th August 2016 for Showing the Inserted Images to the Question Text
+    loadQuestionData(ratPage);
+    
+
+    function loadQuestionData(ratPage) {
+        var pageurl = targetPath + "content/pages/" + ratPage + ".xml";
+
+        $.ajax({
+            url: pageurl,
+            type: 'GET',
+            dataType: 'xml',
+            beforeSend: function () {
+            },
+            success: function (xml) {
+                var $RatTable = $("<table id='container_table' cellpadding='5' cellspacing='0' border='1' style='width:90%'>");
+
+                var pageObjectsNodes;
+				pageObjectsNodes = $(xml).find("pageobject[type='rating'][group='PAGE'][language='"+ selectedLanguage +"']")[0];
+				if(pageObjectsNodes == undefined){
+				   pageObjectsNodes =  $(xml).find("pageobject[type='rating'][group='PAGE']")[0];
+				}else if(pageObjectsNodes.length == 0){
+				  pageObjectsNodes =  $(xml).find("pageobject[type='rating'][group='PAGE']")[0];				
+				}
+                /*for (var n1 = 0; n1 < pageObjectsNodes.length; n1++) {
+                    var selectQuestionAttribute = pageObjectsNodes[n1].getAttribute("group");
+                    var selectTypeAttribute = pageObjectsNodes[n1].getAttribute("type");*/
+                    if (pageObjectsNodes != undefined) {
+                        var $innerThData = $("<thead></thead>");
+                        var $innerTrData = $("<tr></tr>");
+                        var Colcount = 1;
+                        var borderThickness = $(pageObjectsNodes).attr("thick");
+                        var borderColor = $(pageObjectsNodes).attr("bordercolor");
+                        var borderString = borderThickness + "px solid " + borderColor;
+
+                        $(pageObjectsNodes).find("colheading").children().each(function (index) {
+ 
+                           $txt = document.createElement("div");
+
+                            var poid = $(this).attr("poid");
+                            var pageObjectNode = $(contentLibXML).find("pageobject[id=" + poid + "]");
+                            var data = $(pageObjectNode)[0].text;
+
+                            if (data == undefined) {
+                                //Added by Sunny on 6th September 2016 For Showing Images as Link
+                                var rowHeadingHtml = $(pageObjectNode)[0].textContent;
+                                if (rowHeadingHtml != "") {
+                                    debugger;
+                                    var tempElement = document.createElement("div");
+                                    $(tempElement).html(rowHeadingHtml);
+                                    $(tempElement).find("img").each(function () {
+                                        var src = $(this).attr("src");
+                                        var newWindow = 'openInNewWindow("' + src + '");';
+                                        $(this).replaceWith("&nbsp;<a href='#" + src + "' onClick = '" + newWindow + "' style='color:#0645AD'>Image</a>&nbsp;");
+                                    })
+                                    rowHeadingHtml = $(tempElement).html();
+                                    $(pageObjectNode)[0].textContent = rowHeadingHtml;
+                                    $(tempElement).remove();
+                                }
+                                data = $(pageObjectNode)[0].textContent;
+                                //End Sunny
+                            }
+                                
+                            $txt.innerHTML = data;
+                            data = $txt.innerHTML; //Modified by Sunny on 29th August 2016 for Showing the Inserted Images to the Headings.
+							//data = $txt.innerText;
+							if (data == undefined)
+								 data = $txt.textContent;
+                            $innerTrData.append("<th style='color:#fff; border:" + borderString + ";'>" + data + "</th>");
+                           // if (Colcount == 1)
+                          //      styledef += "#container_table td:nth-of-type(" + (Colcount) + "):before { content: '" + data + "'; font-weight:bold;}";
+                        //    else
+                          //      styledef += "#container_table td:nth-of-type(" + (Colcount) + "):before { content: '" + data + "'; white-space: pre; font-weight:bold;}";
+                            Colcount += 1;
+                        });
+                       // $innerTrData.append("<th style='color:#fff; border:" + borderString + "'>Rating</th>");
+                     //   styledef += "#container_table td:nth-of-type(" + Colcount + "):before { content: 'Rating'; white-space: pre; font-weight:bold;}";
+                        $innerThData.append($innerTrData)
+                        $RatTable.append($innerThData);
+                       // styledef += "}</style>";
+
+                        try {
+                            $("#dynamiccss").append(styledef);
+                        } catch (e) { alert("error"); }
+
+                        $(pageObjectsNodes).find("rows").each(function (rowindex) {
+                            var $innerData = $("<tr></tr>");
+                            $(this).find("row").each(function () {
+                                var poid = $(this).attr("poid");
+                                var pageObjectNode = $(contentLibXML).find("pageobject[id=" + poid + "]");
+                                var data = $(pageObjectNode)[0].text;
+                                $txt = document.createElement("div");
+                                if (data == undefined) {
+                                    //Added by Sunny on 6th September 2016 For Showing Images as Link
+                                    var rowDataHtml = $(pageObjectNode)[0].textContent;
+                                    if (rowDataHtml != "") {
+                                        debugger;
+                                        var tempElement = document.createElement("div");
+                                        $(tempElement).html(rowDataHtml);
+                                        $(tempElement).find("img").each(function () {
+                                            var src = $(this).attr("src");
+                                            var newWindow = 'openInNewWindow("' + src + '");';
+                                            $(this).replaceWith("&nbsp;<a href='#" + src + "' onClick = '" + newWindow + "' style='color:#0645AD'>Image</a>&nbsp;");
+                                        })
+                                        rowDataHtml = $(tempElement).html();
+                                        $(pageObjectNode)[0].textContent = rowDataHtml;
+                                        $(tempElement).remove();
+                                    }
+                                    data = $(pageObjectNode)[0].textContent;
+                                    //End Sunny
+                                }
+                                    
+                                $txt.innerHTML = data;
+                               data = $txt.innerHTML; //Modified by Sunny on 29th August 2016 for Showing the Inserted Images to the Options.
+							   // data = $txt.innerText;
+								if (data == undefined)
+								 data = $txt.textContent;
+                                $innerData.append("<td style='border:" + borderString + ";'><div><span class='content_span'>" + data + "</span></div></td>");
+                            });
+                            $innerData.append(Ratingstars());
+                            $RatTable.append($innerData);
+                        });
+
+                    }
+                //}
+                    $("#container").append($RatTable);
+                    
+                    if (window.width < 500) {
+                       generateRatingTableheaderinMob();
+                    }
+
+                setTimeout(setRadingData, 100);
+            },
+            error: function (xhr, textStatus, errorThrown) {
+                alert(textStatus);
+            }
+        });
+    }
+
+    function Ratingstars() {
+
+        var $RatingDiv = $("<td> <div class='star_container'></div></td>");
+        $RatingDiv.append(" <span class='star_span'><img class='star' src='images/star grey.png' data-id='1'  style='height:24px!important;width:24px!important' />");
+        $RatingDiv.append(" <span class='star_span'><img class='star' src='images/star grey.png' data-id='2'  style='height:24px!important;width:24px!important' />");
+        $RatingDiv.append(" <span class='star_span'><img class='star' src='images/star grey.png' data-id='3'  style='height:24px!important;width:24px!important' />");
+        $RatingDiv.append(" <span class='star_span'><img class='star' src='images/star grey.png' data-id='4'  style='height:24px!important;width:24px!important' />");
+        $RatingDiv.append(" <span class='star_span'><img class='star' src='images/star grey.png' data-id='5'  style='height:24px!important;width:24px!important' />");
+        return $RatingDiv;
+    }
+
+    function setRadingData() {
+        var useranswer = "";
+        if (pages[SeqID] != undefined) {
+            useranswer = getUserAnswer();
+            if (useranswer == "") return;
+            var arrAnswers = useranswer.toString().split('##');
+            debugger;
+            $('#container_table tbody tr').each(function (index) {
+                // if (index != 0){
+                for (j = 0; j < arrAnswers.length; j++) {
+                    if (index == parseInt(arrAnswers[j].split('@')[0]) - 1)
+                        $(this).find('.star').each(function () {
+                            var i = $(this).attr('data-id');
+                            if (i <= arrAnswers[j].split('@')[1]) {
+                                $(this).attr('src', 'images/star yellow.png');
+                            } else {
+                                $(this).attr('src', 'images/star grey.png');
+                            }
+                        }); // end star
+                } // end for j
+                //}   //end index
+            });
+        }
+    }
+    function getUserAnswer() {
+          if (isTrack == "yes") {
+			  ratQtn  = Number(ratQtn) + previousTotalPages();
+		   }
+        for (var qno = 0; qno < pages[SeqID].length - 1; qno++) {
+            var SummaryPage = pages[SeqID][qno];
+            if (SummaryPage.type != "topic") {
+                if (SummaryPage.iscoao != "co") {
+                    if (SummaryPage.pageNumber == ratQtn)
+                        if (SummaryPage.Qtype = "rating") {
+                            return SummaryPage.useranswer;
+                        }
+                }
+            } else {
+                for (topqno = 0; topqno < SummaryPage.pages.length; topqno++) {
+                    if (SummaryPage.pages[topqno].type != "topic") {
+                        if (SummaryPage.pages[topqno].iscoao != "co") {
+                            if (SummaryPage.pages[topqno].pageNumber == ratQtn) {
+                                if (SummaryPage.pages[topqno].Qtype == "rating") {
+                                    return SummaryPage.pages[topqno].useranswer;
+                                }
+                            }
+                        }
+                    } else {
+                        for (subtopqno = 0; subtopqno < SummaryPage.pages[topqno].pages.length; subtopqno++) {
+                            if (SummaryPage.pages[topqno].pages[subtopqno].type != "topic") {
+                                if (SummaryPage.pages[topqno].pages[subtopqno].iscoao != "co") {
+                                    if (SummaryPage.pages[topqno].pages[subtopqno].pageNumber == ratQtn) {
+                                        if (SummaryPage.pages[topqno].pages[subtopqno].Qtype == "rating") {
+                                            return SummaryPage.pages[topqno].pages[subtopqno].useranswer;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+	function previousTotalPages(){
+	   var oldPages = 0;
+		if (isTrack == "yes") {			
+			for (var j = 0; j < SeqID; j++) {
+				oldPages += trackObjects[j].pages;
+			}
+		}
+		return oldPages;
+	}
+	function generateRatingTableheaderinMob() {
+	    $('table[id^="container_table"]').each(function () {
+	        var tab = $(this);
+	        var width = $(window).width();
+	        var height = $(window).height();
+	        var list = new Array();
+	        var numOfColumns = $(tab.find('tr')[0]).children().length;
+	        if (width <= 550) {
+	            tab.find('tr th').each(function () {
+	                list.push($(this).html());
+	            });
+	            var j = 0;
+	            if (list.length > 0) {
+	                tab.find('tr td').each(function (i) {
+	                    $(this).css('padding-bottom', '30px');
+	                    if (j < list.length) {
+	                        $(this).prepend("<strong style='padding:5px;background:#eaebec;display:block;'>" + list[j] + "</strong>");
+	                    } else {
+	                        j = 0;
+	                        $(this).prepend("<strong style='padding:5px;background:#eaebec;display:block;'>" + list[j] + "</strong>");
+	                    }
+	                    j++;
+	                });
+	            }
+	        }
+	    });
+	}
+</script>

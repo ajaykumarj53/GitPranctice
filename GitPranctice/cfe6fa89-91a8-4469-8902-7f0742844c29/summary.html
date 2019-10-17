@@ -1,0 +1,89 @@
+<TABLE class="content" id="instsampletable" style="" width="100%" height="100%"  valign="top">	
+    
+<tr style="display:none"><td><!--printimage--></td></tr>
+<tr>
+<td valign="top" style="height:100%">
+<table id ='tblshowprogress' align='center'><tr><TD class='loadertext' vAlign='middle' align='left' id='DisplayText'>Generating summary, please wait ... </TD>
+<TD class='text' vAlign='middle' align='left'><IMG src='IMAGES\loading.gif'></TD></tr></table>
+<TABLE cellpadding="0" cellspacing="0" border="0" class="content" id="instmaintable" style="BACKGROUND-REPEAT: no-repeat" width="100%">
+	<TR valign=top id ="tdPass" style="DISPLAY: none">
+	<TD >
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="Green-Alert1">
+ <tr>
+  <td ><img src="images/green-icon.png" hspace="5" onover="images/green-icon_over.png"  /></td>
+   <td width="99%" ><strong>Congratulations, you have passed the test.</strong></td>
+ </tr>
+  </table>
+ </td>
+	</TR>
+	<TR valign=top id ="tdFail" style="DISPLAY: none">
+	<TD >
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="Red-Alert">
+ <tr>
+  <td ><img src="images/red-icon.png" hspace="5" onover="images/red-icon_over.png"/></td>
+   <td width="99%" ><strong>Sorry, you did not pass the test.</strong></td>
+ </tr>
+  </table>
+ </td>
+	</TR>
+	<TR><TD><table width="100%" border="0" cellpadding="0" cellspacing="0" id="sumtbl" class="summarytbl" align="center">
+	<tr>
+	<td>
+	<div id="summary_web"></div>
+	<div id="summary_mobil" style="display:none"></div>
+	<div id="solution_popup" style="display:none" title="Solutions"></div>
+	</td>
+	</TR>
+	</table>
+	</td>
+	</TR>
+   <TR valign='top' id='trPrint'><TD colspan='2'>
+    <div title="Submit" alt="Submit" name="submitbtn" id="submitbtn" border="0" class="submitbut" onClick="submitTest()"><span>Submit</span></div> <img src="images/completed.gif" onover="images/completed.gif" title="Completed" alt="Completed"  name="Completedbtn" id="Completedbtn" border="0"> <div title="Edit" alt="Edit" name="editbtn" id="editbtn" border="0" class="submitbut" onClick="EditResponses()"><span>Edit</span></div> <div title="Retake" alt="Retake"  name="retakebtn" id="retakebtn" border="0" class="submitbut" onClick="retakeTest()"><span>Retake</span></div> <div title="Print Preview" alt="Print Preview" name="printbtn" id="printbtn" border="0" class="submitbut" onClick="printCommentsSummary()"><span>Print Preview</span></div></TD></TR>
+   <TR valign=top><TD valign=top>
+	<table id='tblsummary' cellspacing='0' cellpadding='3' width='100%' border='0'></table>
+   </TD></TR>
+ 	<TR valign='top'>
+   <TD valign='top'>
+	<table id='tblfeedback' cellspacing='0' cellpadding='3' width='100%' border='0'></table>
+   </TD></TR></Table></td></tr>
+ <TR valign="top">
+<td valign="top"><table id=""  cellspacing=0 cellpadding=3 width="100%" >
+</table>
+</TD>
+</TR>
+<TR valign="top">
+<TD valign="top"><table id="" cellspacing=0 cellpadding=3 width="100%" >
+<div id='popupDiv' title="Popup Title" style='display:none'></div>
+<div id='audioPoster' style='position:absolute; display:none'><!--<img src="images/audioIcon.jpg"/>--></div>
+<div id='videoPoster' style='position:absolute; display:none'><!--<img src="images/videoIcon.jpg"/>--></div>
+</table></TD>
+</TR>
+</TABLE>
+<style>.instcontentbg { <!--bgproperties--> }</style>
+       
+<script type="text/javascript">
+var QuestionNo;
+var order;
+showsummary();
+$("#instmaintable tr td img").each(function(){
+   $(this).hover(function(){
+       $(this)[0].setAttribute('out', $(this)[0].getAttribute('src'));
+       $(this)[0].setAttribute('src', $(this)[0].getAttribute('onover'));
+       $(this).addClass('on');
+   }, function(){
+       $(this)[0].setAttribute('src', $(this)[0].getAttribute('out'));
+       $(this).removeClass('on');
+   });
+});
+$('#page').find('img[id^="solutionSummary_"]').bind('click',function(){
+openSolutionsOnSummarypage($(this)); });
+var emptySolutionPages = '';
+$('#tblsummary').on('onSummaryPageLoad', function(e){
+disableHintButtonsOnSummary(emptySolutionPages)
+});
+
+
+
+<!--instancyautoplayaudio-->
+<!--instancypagetextresponses-->
+</script>

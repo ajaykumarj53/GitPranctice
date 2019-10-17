@@ -1,0 +1,92 @@
+<TABLE class="content" id="instsampletable" style="" width="100%" height="100%"  valign="top">	
+    
+<tr style="display:none"><td><!--printimage--></td></tr>
+<tr>
+<td valign="top" style="height:100%"><script>
+var hideTitle = 'no';
+</script>
+<Table id='instmaintable' class='content' width='100%' height='auto' cellpadding='0' cellspacing='0'><tr><td valign='top'><div style='background:;border:0px solid #CCCCCC;padding:0px 0px 0px 0px;margin:0px 0px 0px 0px'><div class='row' ><div class='col-sm-12 resize-div'><div class='dropable-div' id='99ca9cb6-b8a9-7803-08c6-652e0884ae94'><div id='questionContainer7'><div id='questiontext7' data-delay='0' class='  ' style='background-color:;border:0px solid #CCCCCC;border-radius:px;padding:0px 0px 0px 0px;margin:0px 0px 0px 0px'>Question goes here </div></div><div id='matrixContainer_7' data-delay='0' class=' '  style='width:100%; height:auto; z-index:1;  padding:0px 0px 0px 0px;margin:0px 0px 0px 0px; border=px solid ' ><table width='100%' id='matrixtable' style='border-collapse:separate;border-spacing:px'><tr><td width='273px' ></td><td width='237px' style='padding:px'><table width='100%' style='color:;'><tr><td width='95%'  align='center'>Group here</td><td width='10%'></td></tr></table></td></tr><tr><td width='273px'></td><td width='237px' style='padding:px'><table width='100%'><tr><td width='95%'  align='center'><table width='100%' align='center' style='color:;'><tr><td width='20%' align='center' style='padding:px'>1</td><td width='20%' align='center' style='padding:px'>2</td><td width='20%' align='center' style='padding:px'>3</td><td width='20%' align='center' style='padding:px'>4</td><td width='20%' align='center' style='padding:px'>NA</td></tr></table></td><td width='10%'></td></tr></table></td></tr><tr style='background-color:;'><td width='273px' style='color:;padding:px'>Question 1</td><td width='237px' style='padding:px'><table width='100%' style='color:;'><tr><td width='95%'  align='center'><table width='100%'  align='center'><tr><td width='20%'style='padding:px' align='center'><input type='checkbox' name='0_0' id='0_0' ></td><td width='20%'style='padding:px' align='center'><input type='checkbox' name='0_0' id='0_1' ></td><td width='20%'style='padding:px' align='center'><input type='checkbox' name='0_0' id='0_2' ></td><td width='20%'style='padding:px' align='center'><input type='checkbox' name='0_0' id='0_3' ></td><td width='20%'style='padding:px' align='center'><input type='checkbox' name='0_0' id='0_4' ></td></tr></table></td><td width='10%'></td></tr></table></td></tr><tr style='background-color:;'><td width='273px' style='color:;padding:px'>Question 2</td><td width='237px' style='padding:px'><table width='100%' style='color:;'><tr><td width='95%'  align='center'><table width='100%'  align='center'><tr><td width='20%'style='padding:px' align='center'><input type='checkbox' name='1_0' id='1_0' ></td><td width='20%'style='padding:px' align='center'><input type='checkbox' name='1_0' id='1_1' ></td><td width='20%'style='padding:px' align='center'><input type='checkbox' name='1_0' id='1_2' ></td><td width='20%'style='padding:px' align='center'><input type='checkbox' name='1_0' id='1_3' ></td><td width='20%'style='padding:px' align='center'><input type='checkbox' name='1_0' id='1_4' ></td></tr></table></td><td width='10%'></td></tr></table></td></tr><tr style='background-color:;'><td width='273px' style='color:;padding:px'>Question 3</td><td width='237px' style='padding:px'><table width='100%' style='color:;'><tr><td width='95%'  align='center'><table width='100%'  align='center'><tr><td width='20%'style='padding:px' align='center'><input type='checkbox' name='2_0' id='2_0' ></td><td width='20%'style='padding:px' align='center'><input type='checkbox' name='2_0' id='2_1' ></td><td width='20%'style='padding:px' align='center'><input type='checkbox' name='2_0' id='2_2' ></td><td width='20%'style='padding:px' align='center'><input type='checkbox' name='2_0' id='2_3' ></td><td width='20%'style='padding:px' align='center'><input type='checkbox' name='2_0' id='2_4' ></td></tr></table></td><td width='10%'></td></tr></table></td></tr></table></div><div id='submitContainer' style='position:relative; width:100%; height:auto; z-index:1; left:1.05263157894737%;  clear: both;' border='px' style='border-color:' ></div></div></div></div></div>
+<script>
+
+</script>
+<script>
+addinstClass(); disableSolutionButton(7);
+</script></td></tr></table></td></tr>
+ <TR valign="top">
+<td valign="top"><table id=""  cellspacing=0 cellpadding=3 width="100%" >
+</table>
+</TD>
+</TR>
+<TR valign="top">
+<TD valign="top"><table id="" cellspacing=0 cellpadding=3 width="100%" >
+<div id='popupDiv' title="Popup Title" style='display:none'></div>
+<div id='audioPoster' style='position:absolute; display:none'><!--<img src="images/audioIcon.jpg"/>--></div>
+<div id='videoPoster' style='position:absolute; display:none'><!--<img src="images/videoIcon.jpg"/>--></div>
+</table></TD>
+</TR>
+</TABLE>
+<style>.instcontentbg { BACKGROUND -REPEAT : no -repeat }</style>
+       
+<script type="text/javascript">
+var QuestionNo;
+var order;
+
+
+pageid='_0'
+$('#sharebut').bind('click', showPolledResponses);
+function getUserResponse() {
+
+    var rows = document.getElementById("matrixtable").rows.length - 2;
+    var fields = $("#instmaintable").find("input"); //document.getElementsByTagName("input");
+    var str = "";
+    var itemsperRow = fields.length / rows;
+    var Tagname = fields[0].name;
+    var prevName = fields[0].name;
+    var counter = 0;
+
+    for (var i = 0; i < fields.length; i++) {
+        Tagname = fields[i].name;
+
+        if (Tagname != prevName)
+            if (counter == itemsperRow) {
+                counter = 0;
+                str += "&&**&&";
+            } else
+                str += "&**&";
+
+        counter++;
+        if (fields[i].checked)
+            str += "1";
+        else
+            str += "0";
+
+	       prevName = Tagname; 
+	   }
+	   return str;
+}
+
+function setUserResponse() {
+    var useranswer = "";
+    if(pages[SeqID] != undefined){
+        useranswer = getCoValues('useranswer') == undefined ? '' : getCoValues('useranswer')
+        if (useranswer == "") return;
+        UserChoices  = useranswer.split("&&**&&").join("").split("&**&").join("");
+        var fields = $("#instmaintable").find("input"); //document.getElementsByTagName("input");
+        for (var i = 0; i < fields.length; i++) {
+            var val = UserChoices.charAt(i);
+            if (val == "1")
+                fields[i].checked = true;
+            else
+                fields[i].checked = false;
+        }
+    }
+}
+
+function checkPassStatus(useranswer) {
+    return true;
+}
+
+hideShareButtonInOffline();
+<!--instancyautoplayaudio-->
+<!--instancypagetextresponses-->
+</script>

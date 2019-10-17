@@ -1,0 +1,699 @@
+.alphabetsHolder{
+background-color:rgba(82,87,95,1);
+height: auto;
+width: 100%;
+text-align:center;
+}
+
+.controls div {
+    line-height: 30px !important;
+}
+
+.answeralphabet{
+display:inline-block;
+font-size: 18px;
+color: #fff;
+text-align: center;
+font-weight: bold;
+font-family: sans-serif;
+width:30px;
+height:30px;
+border-radius:22px;
+line-height:30px;
+background:rgba(82,87,95,1);
+margin: 5px;
+box-shadow: 3px 3px 3px #888888;
+}
+
+.alphabet{
+display:inline-block;
+font-size: 17px;
+color: #fff;
+text-align: center;
+cursor: pointer;
+font-weight: bold;
+font-family: sans-serif;
+width:24px;
+height:24px;
+border-radius:22px;
+line-height:30px;
+background:rgba(82,87,95,0);
+/*box-shadow: 3px 3px 3px #888888;*/
+}
+.alphabets_wrong{
+display:inline-block;
+font-size: 17px;
+color: #fff;
+text-align: center;
+cursor:default;
+font-weight: bold;
+font-family: sans-serif;
+width:24px;
+height:24px;
+border-radius:22px;
+line-height:30px;
+background:rgba(200,37,5,1);
+}
+
+.alphabets_correct{
+display:inline-block;
+font-size: 17px;
+color: #fff;
+text-align: center;
+cursor:default;
+font-weight: bold;
+font-family: sans-serif;
+width:24px;
+height:24px;
+border-radius:22px;
+line-height:30px;
+background:rgba(0,135,42,1);
+}
+
+.correctCounter{
+font-weight: 
+bold;font-size: initial; 
+color:#12FD2E;
+}
+
+.inCorrectCounter{
+  font-weight: bold;
+  font-size: initial;
+  color:#F12334;
+}
+
+#metercenter{
+    box-shadow:3px 3px 3px #888888;
+    border-radius:50px;
+  }
+
+.containerDiv{
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.boxDiv{
+ background-color: rgba(192,191,191,1);
+border: 1px solid #999999;
+/*color:#ffffff !important;*/
+overflow:auto;
+}
+.boxDiv span{
+  /*color:#ffffff !important;*/
+    padding:10px;
+    text-align:center;
+    width:99%;
+    line-height: normal;
+}
+
+.boxDiv img{
+width:100%;
+height:auto;
+}
+
+.onBoxClick{
+ -webkit-box-shadow:inset 0px 0px 0px 5px rgba(245,211,39,1);
+ -moz-box-shadow:inset 0px 0px 0px 5px rgba(245,211,39,1);
+ box-shadow:inset 0px 0px 0px 5px rgba(245,211,39,1);
+ background-color: rgba(192,191,191,1);
+/*color:#ffffff !important;*/
+ overflow:auto;
+}
+
+.onBoxClick span{
+   // color:#ffffff !important;
+    padding:10px;
+    text-align:center;
+    width:99%;
+     line-height: normal;
+}
+
+.onBoxClick img{
+width:100%;
+height:auto;
+}
+
+.incorrectTrans{
+-webkit-box-shadow:inset 0px 0px 0px 5px #e63c0e;
+  -moz-box-shadow:inset 0px 0px 0px 5px #e63c0e;
+    box-shadow:inset 0px 0px 0px 5px #e63c0e;
+ background-color: rgba(192,191,191,1);
+/*color:#ffffff !important;*/
+ overflow:auto;
+}
+
+.incorrectTrans span{
+   /*color:#ffffff !important;*/
+    padding:10px;
+    text-align:center;
+    width:99%;
+     line-height: normal;
+}
+
+.incorrectTrans img{
+width:100%;
+height:auto;
+}
+
+.correctTrans{
+-webkit-box-shadow:inset 0px 0px 0px 5px #6bf244;
+ -moz-box-shadow:inset 0px 0px 0px 5px #6bf244;
+ box-shadow:inset 0px 0px 0px 5px #6bf244;
+ background-color: rgba(192,191,191,1);
+ overflow:auto;
+/*color:#ffffff !important;*/
+}
+
+.correctTrans span{
+    /*color:#ffffff !important;*/
+    padding:10px;
+    text-align:center;
+    width:99%;
+     line-height: normal;
+}
+
+.correctTrans img{
+width:100%;
+height:auto;
+}
+
+
+.controls{
+/*height:60px;*/
+width:100%;
+background-color: #f1f1f1;
+color:#ffffff;
+/*border-top: 1px solid #cccccc;*/
+border: 1px solid #cccccc;
+border-bottom-left-radius:1em;
+border-bottom-right-radius:1em
+}
+
+.strtInstructions{
+background:rgba(0,0,0,0.8);
+/*border: 1px solid #cccccc;*/
+width:50%;
+height:550px;
+top:0;
+left:0;
+position:absolute;
+line-height: normal;
+}
+
+.strtInstructions span{
+    line-height: normal;
+}
+.instructionsdiv{
+background:rgba(0,0,0,0.3);
+/*border: 1px solid #cccccc;*/
+color:#333333;
+width:50%;
+height:550px;
+top:0;
+left:0;
+position:absolute;
+line-height: normal;
+}
+.instDiv{
+height:100%;
+width:100%;
+background-color: #ffffff;
+position:absolute;
+top:0%;
+left:0%;
+/*overflow:auto;*/
+line-height: normal;
+}
+
+
+.faildiv{
+height:50%;
+width:70%;
+background-color: #f9f9f9;
+position:absolute;
+top:18%;
+left:12%
+}
+
+.gameHelp_btn{
+display:block;
+width:30px;
+height:30px;
+border-radius:22px;
+line-height:30px;
+text-align:center;
+background:rgba(82,87,95,1);
+font-size:14px;
+color:#fff;
+text-align:center;
+box-shadow: 3px 3px 3px #888888;
+cursor:pointer;
+}
+.gameHelp_btn:hover{
+display:block;
+width:30px;
+height:30px;
+border-radius:22px;
+line-height:30px;
+text-align:center;
+background:rgba(33,33,33,1);
+font-size:14px;
+color:#fff;
+text-align:center;
+box-shadow: 3px 3px 3px #888888;
+cursor:pointer;
+}
+
+.gameSound_btn{
+display:block;
+width:30px;
+height:30px;
+border-radius:22px;
+line-height:30px;
+text-align:center;
+background:rgba(82,87,95,1);
+font-size:14px;
+color:#fff;
+text-align:center;
+box-shadow: 3px 3px 3px #888888;
+cursor:pointer;
+}
+.gameSound_btn:hover{
+display:block;
+width:30px;
+height:30px;
+border-radius:22px;
+line-height:30px;
+text-align:center;
+background:rgba(33,33,33,1);
+font-size:14px;
+color:#fff;
+text-align:center;
+box-shadow: 3px 3px 3px #888888;
+cursor:pointer;
+}
+
+.gameplay_btn{
+display:block;
+width:30px;
+height:30px;
+border-radius:22px;
+line-height:30px;
+text-align:center;
+background:rgba(0,135,42,1);
+font-size:14px;
+color:#fff;
+text-align:center;
+box-shadow: 3px 3px 3px #888888;
+}
+.gameplay_btn:hover{
+display:block;
+width:30px;
+height:30px;
+border-radius:22px;
+line-height:30px;
+text-align:center;
+background:rgba(0,106,32,1);
+font-size:14px;
+color:#fff;
+text-align:center;
+box-shadow: 3px 3px 3px #888888;
+}
+
+.gamepause_btn{
+display:block;
+width:30px;
+height:30px;
+border-radius:22px;
+line-height:30px;
+text-align:center;
+background:rgba(200,37,5,1);
+font-size:14px;
+color:#fff;
+text-align:center;
+box-shadow: 3px 3px 3px #888888;
+}
+.gamepause_btn:hover{
+display:block;
+width:30px;
+height:30px;
+border-radius:22px;
+line-height:30px;
+text-align:center;
+background:rgba(151,30,4,1);
+font-size:14px;
+color:#fff;
+text-align:center;
+box-shadow: 3px 3px 3px #888888;
+}
+
+.gamereset_btn{
+display:block;
+width:30px;
+height:30px;
+border-radius:22px;
+line-height:30px;
+text-align:center;
+background:rgba(222,102,16,1);
+font-size:14px;
+color:#fff;
+text-align:center;
+box-shadow: 3px 3px 3px #888888;
+cursor:pointer;
+}
+.gamereset_btn:hover{
+display:block;
+width:30px;
+height:30px;
+border-radius:22px;
+line-height:30px;
+text-align:center;
+background:rgba(188,88,14,1);
+font-size:14px;
+color:#fff;
+text-align:center;
+box-shadow: 3px 3px 3px #888888;
+cursor:pointer;
+}
+
+
+.levelbox{
+border:1px solid #52575F;
+/*padding:7px 30px;*/ 
+background:#52575F;
+width:80px;
+border-radius:5px;
+color:#fff;
+text-align:center;
+line-height: normal;
+}
+
+.gamelevels{
+display:block;
+width:30px;
+height:30px;
+border-radius:22px;
+line-height:30px;
+text-align:center;
+background:rgba(82,87,95,1);
+/*font-size:20px;*/
+color:#fff;
+text-align:center;
+box-shadow: 3px 3px 3px #888888;
+cursor:pointer;
+}
+.gamelevelSelected{
+display:block;
+width:30px;
+height:30px;
+border-radius:22px;
+line-height:30px;
+text-align:center;
+background:rgba(82,87,95,1);
+/*font-size:20px;*/
+color:rgba(245,211,39,1);
+font-weight:bold;
+text-align:center;
+box-shadow: 3px 3px 3px #888888;
+cursor:default;
+}
+
+.gametimer{
+border:1px solid #52575F;
+/*padding:7px 30px;*/ 
+background:#52575F;
+padding:0 5px;
+border-radius:5px;
+color:#fff;
+text-align:center;
+line-height: 25px;
+}
+
+.gameScore{
+border:1px solid #52575F;
+/*padding:7px 30px;*/ 
+background:#52575F;
+padding:0 5px;
+border-radius:5px;
+color:#fff;
+text-align:center;
+line-height: 25px;
+}
+.playbtn{
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+#content .playbtn img{
+     width: 50px !important;
+     height: 50px !important;
+}
+.gameretake {
+    height:30px; 
+    width:100px;
+    line-height: 30px;
+    border:2px solid #CCC;
+    text-align: center;
+    background:#52575F !important;
+    color:#fff !important;
+    padding-top:4px !important;
+    }
+
+.gamecontainer{
+	border:1px solid #cccccc; 
+    /*border-bottom-left-radius:1em;
+    border-bottom-right-radius:1em;*/
+}
+
+
+.instHeading{
+    font-size: 14px;
+    font-weight: bold;
+    padding:5px;
+    border-bottom:1px solid #cccccc;
+    height:20px;
+}
+.inscontent{
+    font-size: 12px;
+    padding:5px 10px;
+    line-height:20px;
+}
+.gameQuestion{
+    font-size: 14px;
+    font-weight: bold;
+    padding:10px;
+    color:black;
+}
+
+.cdivheight {
+    /*min-height:300px*/
+    position: absolute;
+    top:0px;
+    right:2px;
+}
+.gametext{
+    font-size: 12px;
+    padding:5px;
+    line-height:20px;
+    height:85%;
+    overflow:auto;
+  
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 620px) {
+
+.alphabetsHolder{
+background-color:rgba(82,87,95,1);
+height: auto;
+width: 100%;
+text-align:center;
+}
+
+.answeralphabet{
+display:inline-block;
+font-size: 12px;
+color: #fff;
+text-align: center;
+font-weight: bold;
+font-family: sans-serif;
+width:30px;
+height:30px;
+border-radius:22px;
+line-height:20px;
+background:rgba(82,87,95,1);
+margin: 4px;
+box-shadow: 3px 3px 3px #888888;
+min-width:19px !important;
+}
+
+.alphabet{
+display:inline-block;
+font-size: 12px;
+color: #fff;
+text-align: center;
+cursor: pointer;
+font-weight: bold;
+font-family: sans-serif;
+width:30px;
+height:30px;
+border-radius:22px;
+line-height:20px;
+background:rgba(82,87,95,0);
+/*box-shadow: 3px 3px 3px #888888;*/
+min-width:25px !important;
+}
+.alphabets_wrong{
+display:inline-block;
+font-size: 12px;
+color: #fff;
+text-align: center;
+cursor:default;
+font-weight: bold;
+font-family: sans-serif;
+width:30px;
+height:30px;
+border-radius:22px;
+line-height:20px;
+background:rgba(200,37,5,1);
+min-width:25px !important;
+}
+
+.alphabets_correct{
+display:inline-block;
+font-size: 12px;
+color: #fff;
+text-align: center;
+cursor:default;
+font-weight: bold;
+font-family: sans-serif;
+width:30px;
+height:30px;
+border-radius:22px;
+line-height:20px;
+background:rgba(0,135,42,1);
+min-width:25px !important;
+}
+.cdivheight{
+    min-height:100px
+}
+.gametimer{
+border:1px solid #52575F;
+/*padding:7px 30px;*/ 
+background:#52575F;
+padding:0 5px;
+border-radius:5px;
+color:#fff;
+text-align:center;
+line-height: 25px;
+width:auto !important;
+}
+
+.gameScore{
+border:1px solid #52575F;
+/*padding:7px 30px;*/ 
+background:#52575F;
+border-radius:5px;
+padding:0 5px;
+color:#fff;
+text-align:center;
+line-height: 25px;
+width:auto !important;
+}
+.levelbox{
+border:1px solid #52575F;
+/*padding:7px 30px;*/ 
+background:#52575F;
+width:auto !important;
+padding:0 5px;
+border-radius:5px;
+color:#fff;
+text-align:center;
+line-height: 25px;
+}
+/*#divControls1, #divControls2, #divControls3 {
+    width:100% !important;
+    float:left !important;
+    }
+#divControls1 > tabel {
+    width:100% !important;
+    }
+#divControls2 > tabel {
+    width:100% !important;
+    }
+#divControls3 > tabel {
+    width:100% !important;
+    }*/
+#divControls1 > table div, #divControls2 > table div, #divControls3 > table div {
+    width:30px !important;
+    /*height:30px !important;*/
+}
+#divControls3 > table .gameScore, #divControls2 > table .levelbox {
+    width:50px !important;
+}
+
+#divControls3 > table .gametimer{
+    width:80px !important;
+}
+#divControls1 .gameSound_btn img{
+    width:18px !important;
+    margin-bottom: -3px;
+    margin-top: 3px;
+}
+.alphabet{
+    display:inline-block;
+    font-size: 12px !important;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: sans-serif;
+    width:25px;
+    height:25px;
+    border-radius:22px;
+    line-height:25px;
+    /*padding:5px;*/
+    background:rgba(82,87,95,0);
+    /*box-shadow: 3px 3px 3px #888888;*/
+}
+.gameArea .answeralphabet, .gameArea .alphabets_wrong, .gameArea .alphabets_correct {
+    width:20px !important;
+    height:20px !important;
+    font-size:12px !important; 
+}
+.gameArea .cdivheight div{
+    width:140px !important;
+    height:180px !important;
+}
+
+.gameArea #metercenter{
+    width:20px !important;
+    height:20px !important;
+    position:absolute !important;
+    left:inherit !important;
+    top:inherit !important;
+    display:none;
+}
+.gametext{
+    font-size: 12px;
+    padding:5px;
+    line-height:20px;
+    height:85%;
+    overflow:auto;
+    max-height:150px;
+}
+.hideGamearea{
+  display:none;
+}
+
+}

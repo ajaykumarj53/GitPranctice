@@ -1,0 +1,26 @@
+@import url("mobile.css");
+
+#mobile-view{
+	background-image:url(../images/iPhone-bg.png);
+	background-position:10px 10px;
+	background-repeat:no-repeat;
+	z-index:999999;
+	position:relative;
+	background-color:#333;
+	}
+.mobile-size{
+	width:320px;
+	height:480px;
+	top:143px;
+	position:relative;
+	left:42px;
+	background-color:#FFF;
+}
+
+.toc{
+    top: 306px !important;
+    left: 37px !important;
+}
+.SectionDiv{
+max-height:350px;
+}

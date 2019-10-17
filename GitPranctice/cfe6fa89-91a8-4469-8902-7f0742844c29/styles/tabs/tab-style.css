@@ -1,0 +1,51 @@
+/* Tabs container */
+
+
+/* Tab element */
+.r-tabs .r-tabs-nav .r-tabs-tab .r-tabs-anchor  {
+	position: relative;
+	display: inline-block;
+	padding: 10px 12px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/* Active state tab anchor */
+.r-tabs .r-tabs-nav .r-tabs-state-active .r-tabs-anchor {
+	text-shadow: none;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/* Tab panel */
+
+
+
+/* Normal Tab .r-tabs.r-tabs-nav 
+ .r-tabs-tab .r-tabs-anchor  {
+    background-color: #F5F5F5;
+	border: 1px solid #4d4d4d;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	color: #000;
+}*/
+/* Tab element .r-tabs:hover .r-tabs-nav:hover 
+ .r-tabs-tab:hover .r-tabs-anchor:hover{
+	background-color: #FF0000;
+	border: 1px solid #A7A7A7;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	color: #000;
+}*/
+/* Active state tab anchor .r-tabs .r-tabs-nav 
+.r-tabs-state-active .r-tabs-anchor {
+	background-color: #009933;
+	border: 1px solid #305069;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	color: #000;
+}*/
+

@@ -1,0 +1,361 @@
+
+.content-body{
+	width:100%;
+	height:96%;
+	background-color:#FFFFFF;
+	margin: 0 auto;
+}
+#apDiv2 {
+	height: 93% !important;
+    width: 240px !important;
+}
+
+
+.resourcesPopup{
+	width:80% !important;
+	height:252px !important;
+	background-color:#F00;
+	top:25% !important;
+	left:35% !important;
+}
+
+
+#content{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#15a3c7;
+	line-height:25px;
+	text-decoration:none;
+
+}
+#ccPopup{
+    overflow: auto;
+    padding: 5px;
+	font-size:12px;
+	line-height:20px;
+	height:100px;
+}
+
+
+
+.glossaryPopup{
+	width:80% !important;
+	height:252px !important;
+	background-color:#F00;
+	top:25% !important;
+	left:35% !important;
+}
+#correctfeedback{
+-moz-border-radius: 8px;
+ -webkit-border-radius: 8px;
+ border-radius: 8px;
+}
+
+#incorrectfeedback{
+-moz-border-radius: 8px;
+ -webkit-border-radius: 8px;
+ border-radius: 8px;
+}
+
+#remediationfeedback{
+-moz-border-radius: 8px;
+ -webkit-border-radius: 8px;
+ border-radius: 8px;
+}
+
+#summary_web {
+	color: #000000;
+	line-height:22px;
+	font-size:12px;
+    width:75%;
+    margin:0 auto;
+}
+#summary_web  div{
+	width:50%;
+	float:left;
+}
+.summary_result {
+	font-weight:bold;
+}
+#divControls2 {
+    padding-left:3%;
+}
+#divControls3 {
+    padding-left:2%;
+}
+
+
+.video-div{
+	background-color:#ccc;
+}
+.jp-video{
+	width:100%;
+}
+ div.jp-interface{
+	height:70px !important;
+}
+div.jp-controls-holder{
+	width:100% !important;	
+}
+div.jp-jplayer {  
+ max-height: 100% !important;
+}
+.jp-type-single {
+    height: 100% !important;
+}
+
+div.jp-video-360p {
+    height: 100% !important;
+}
+div.jp-progress {
+   
+    height: 5px !important;
+    margin-bottom: 0px!important; 
+}
+div.jp-video-360p div.jp-video-play {
+    background: none repeat scroll 0 0 #000 !important;
+} 
+
+#dociframe
+{
+    position: relative;
+     /* z-index: -1;*/
+}
+	
+.cover {
+        position: absolute;
+        border: none;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+ }
+ 
+
+#openPolledresponsePopup{
+	background-color: #FFFFFF;
+	border:1px #CCCCCC solid;
+    bottom: 45px;
+    float: right;
+    height: 10px;
+    overflow: hidden;
+    padding: 0px;
+    position: absolute;
+    right: 189px;
+    width: 61%;
+	height:72%;
+	font-size:12px;
+	line-height:20px;
+     bottom: 92px;
+}
+
+ .layer-close-top-right{
+	position:absolute;
+	float:right;
+	padding:8px;
+	background-color:#dff5fc;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#133153;
+	font-weight:bold;
+	line-height:10px;
+	cursor:pointer;
+	border-radius:3px;
+	top:0px;
+	right:1px;
+	text-align:center;
+}
+.layer-close-top-left{
+	position:absolute;
+	float:left;
+	padding:8px;
+	background-color:#dff5fc;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#133153;
+	font-weight:bold;
+	line-height:10px;
+	cursor:pointer;
+	border-radius:3px;
+	top:0px;
+	left:1px;
+	text-align:center;
+}
+
+.layer-close-bottom-right{
+	position:absolute;
+	float:right;
+	padding:8px;
+	background-color:#dff5fc;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#133153;
+	font-weight:bold;
+	line-height:10px;
+	cursor:pointer;
+	border-radius:3px;
+	bottom:0px;
+	right:1px;
+	text-align:center;
+}
+.layer-close-bottom-left{
+	position:absolute;
+	float:left;
+	padding:8px;
+	background-color:#dff5fc;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#133153;
+	font-weight:bold;
+	line-height:10px;
+	cursor:pointer;
+	border-radius:3px;
+	bottom:0px;
+	left:1px;
+	text-align:center;
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:landscape) {
+  /* For landscape layouts only */
+  /*Hiding audio controls in capture video player - Longanswer*/
+.mute{
+    display:none !important;
+}
+div[id^='slideAudioVideo_']{
+    display:none !important;
+}
+div[id^='strokeSliderVideo_']{
+    margin-left:5%;
+}
+/*Hiding audio controls in capture video player - Longanswer*/
+}
+
+.lyrfs{
+  position:absolute;
+  width:100% !important;
+  height:100% !important;  
+  left:0px !important;
+  top:0px !important;
+} 
+
+.lyrfs img{
+  width:100%;
+  height:auto !important;  
+} 
+#Surveysummary img{
+ width:95px !important; height:25px !important;
+}
+
+.selectLang {     position: absolute;  right: 93px;top: 95px; margin-right:10px; margin-top:5px;}
+/*.printpg  input { float: left;}*/
+
+.h3print {
+    position: absolute;
+    float: right;
+    margin-top: -15px;
+    left: 25px;
+
+} 
+.lblPrice{
+    cursor:pointer;
+}
+.more-btn{
+  display:none;
+}
+.glossary-btn ,.resourse-btn,.more-btn,.note-btn,.discussionBtn{ padding:8px;}
+ 
+.coursehints{
+ cursor:pointer;
+ margin-left:10px;
+ padding-right:10px;
+}
+
+#solutionbut{
+    padding-right:10px;
+}
+
+.solutionpage{
+background-color:#f1f1f1;
+border: 1px solid #333;
+margin-bottom: 15px;
+font-family:Arial,Helvetica,sans-serif;
+}
+.popup-header{
+background-color:#f4f4f4;
+height:100%;
+width:100%;
+position:relative;
+float:right;
+}
+.solution-num{
+padding:5px;
+font-family: arial;
+font-size: 12px;
+text-align:center;
+}
+
+.solution-ques{
+font-family: arial;
+font-size: 12px;
+}
+
+.solution-popup{
+    position:relative !important;
+}
+
+.jCProgress {
+     position: absolute;
+     z-index: 9999999;
+     /*  margin-top:-15px; /* offset from the center */
+}
+
+.jCProgress > div.percent {
+     font: 18px/27px 'BebasRegular', Arial, sans-serif;
+     color:#ebebeb;
+     text-shadow: 1px 1px 1px #1f1f1f;
+
+     position:absolute;
+     margin-top:40px;
+     margin-left:22px;
+     text-align: center;
+     width:60px;
+}
+			
+.coursetitle{font-size:13px !important; cursor:pointer;}
+
+.progress-text{
+  position: absolute;
+  left: 192px;
+  top: 12px;
+
+}
+.option-content{
+	margin-top:5px;
+}
+#selectLang {
+ position:absolute;
+    top: 59px;
+    right: 81px;
+}
+.full-expand{
+   display:none !important;
+}
+
+.noclose .ui-dialog-titlebar-close{
+    display:none;
+}
+.lblTimer{   
+     right: 172px; 
+     top: 58px;    
+}
+
+#controls {
+    margin-top: 7px !important;
+}
+ul#Notelist {
+    height: 295px;
+    
+}
+.player{
+	font-size: 20px;
+}

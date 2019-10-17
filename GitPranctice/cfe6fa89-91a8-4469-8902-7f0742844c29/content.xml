@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentobject id="cfe6fa89-91a8-4469-8902-7f0742844c29" name="9 questions" applytoall="False" layoutStyle="templateview" postview="false" selectedlanguage="english">
+  <content>
+    <page id="08cb1447-e76c-4aea-9e2c-7e19f4c2e944" name="TF.html" label="TF" enabled="1" type="TRUEFALSE" excludefromcount="false" url="08cb1447-e76c-4aea-9e2c-7e19f4c2e944.xml" vtoccuepoint="1" visible="true" title="TF" srno="1" tocno="1" rowid="0_1">
+      <question id="1" type="TRUEFALSE" score="1">
+        <qtext><![CDATA[Question goes here]]></qtext>
+        <choice id="1" correct="yes" optionscore=""><![CDATA[True]]></choice>
+        <choice id="2" correct="no" optionscore=""><![CDATA[False]]></choice>
+        <questiontabproperties>
+          <questiontab>
+            <qtype unicode="1" name="Mode Type" type="checkbox">
+              <node id="1" name="Exam Mode" value="true" />
+              <node id="2" name="Review Mode" value="false" />
+              <node id="3" name="Cram Mode" value="false" />
+            </qtype>
+            <qtype unicode="2" name="Categories" type="checkbox">
+              <node id="4" name="Definitions" value="false" />
+              <node id="5" name="Math/Formula" value="false" />
+            </qtype>
+            <qtype unicode="3" name="Importance" type="combobox" select="1" attributeid="6">
+              <node id="1" name="More" value="More" />
+              <node id="2" name="Less" value="Less" />
+            </qtype>
+            <qtype unicode="4" name="Difficulty" type="combobox" select="1" attributeid="7">
+              <node id="1" name="Easy" value="Easy" />
+              <node id="2" name="Medium" value="Medium" />
+              <node id="3" name="Hard" value="Hard" />
+            </qtype>
+            <qtype unicode="5" name="Version" type="combobox" select="1" attributeid="8">
+              <node id="1" name="V1" value="V1" />
+              <node id="2" name="V2" value="V2" />
+              <node id="3" name="V3" value="V3" />
+            </qtype>
+          </questiontab>
+        </questiontabproperties>
+      </question>
+    </page>
+    <page id="302e3e72-a2e5-4d14-9106-4aba732cfb62" name="MS.html" label="MS" enabled="1" type="MULTIPLESELECT" excludefromcount="false" url="302e3e72-a2e5-4d14-9106-4aba732cfb62.xml" vtoccuepoint="1" visible="true" title="MS" srno="2" tocno="2" rowid="0_2">
+      <question id="2" type="MULTIPLESELECT" score="1">
+        <qtext><![CDATA[Question goes here]]></qtext>
+        <choice id="1" correct="yes" optionscore=""><![CDATA[Option Text 1]]></choice>
+        <choice id="2" correct="no" optionscore=""><![CDATA[Option Text 2]]></choice>
+        <choice id="3" correct="no" optionscore=""><![CDATA[Option Text 3]]></choice>
+        <choice id="4" correct="no" optionscore=""><![CDATA[Option Text 4]]></choice>
+        <questiontabproperties>
+          <questiontab>
+            <qtype unicode="1" name="Mode Type" type="checkbox">
+              <node id="1" name="Exam Mode" value="true" />
+              <node id="2" name="Review Mode" value="false" />
+              <node id="3" name="Cram Mode" value="false" />
+            </qtype>
+            <qtype unicode="2" name="Categories" type="checkbox">
+              <node id="4" name="Definitions" value="false" />
+              <node id="5" name="Math/Formula" value="false" />
+            </qtype>
+            <qtype unicode="3" name="Importance" type="combobox" select="1" attributeid="6">
+              <node id="1" name="More" value="More" />
+              <node id="2" name="Less" value="Less" />
+            </qtype>
+            <qtype unicode="4" name="Difficulty" type="combobox" select="1" attributeid="7">
+              <node id="1" name="Easy" value="Easy" />
+              <node id="2" name="Medium" value="Medium" />
+              <node id="3" name="Hard" value="Hard" />
+            </qtype>
+            <qtype unicode="5" name="Version" type="combobox" select="1" attributeid="8">
+              <node id="1" name="V1" value="V1" />
+              <node id="2" name="V2" value="V2" />
+              <node id="3" name="V3" value="V3" />
+            </qtype>
+          </questiontab>
+        </questiontabproperties>
+      </question>
+    </page>
+    <page id="949ded4b-9680-427d-b182-2a44a60f34be" name="SS.html" label="SS" enabled="1" type="SINGLESELECT" excludefromcount="false" url="949ded4b-9680-427d-b182-2a44a60f34be.xml" vtoccuepoint="1" visible="true" title="SS" srno="3" tocno="3" rowid="0_3">
+      <question id="3" type="SINGLESELECT" score="1">
+        <qtext><![CDATA[Question goes here]]></qtext>
+        <choice id="1" correct="yes" optionscore=""><![CDATA[Option Text 1]]></choice>
+        <choice id="2" correct="no" optionscore=""><![CDATA[Option Text 2]]></choice>
+        <choice id="3" correct="no" optionscore=""><![CDATA[Option Text 3]]></choice>
+        <choice id="4" correct="no" optionscore=""><![CDATA[Option Text 4]]></choice>
+        <questiontabproperties>
+          <questiontab>
+            <qtype unicode="1" name="Mode Type" type="checkbox">
+              <node id="1" name="Exam Mode" value="true" />
+              <node id="2" name="Review Mode" value="false" />
+              <node id="3" name="Cram Mode" value="false" />
+            </qtype>
+            <qtype unicode="2" name="Categories" type="checkbox">
+              <node id="4" name="Definitions" value="false" />
+              <node id="5" name="Math/Formula" value="false" />
+            </qtype>
+            <qtype unicode="3" name="Importance" type="combobox" select="1" attributeid="6">
+              <node id="1" name="More" value="More" />
+              <node id="2" name="Less" value="Less" />
+            </qtype>
+            <qtype unicode="4" name="Difficulty" type="combobox" select="1" attributeid="7">
+              <node id="1" name="Easy" value="Easy" />
+              <node id="2" name="Medium" value="Medium" />
+              <node id="3" name="Hard" value="Hard" />
+            </qtype>
+            <qtype unicode="5" name="Version" type="combobox" select="1" attributeid="8">
+              <node id="1" name="V1" value="V1" />
+              <node id="2" name="V2" value="V2" />
+              <node id="3" name="V3" value="V3" />
+            </qtype>
+          </questiontab>
+        </questiontabproperties>
+      </question>
+    </page>
+    <page id="40a8728e-92fb-4ae0-becc-4cc8cb0e02b2" name="FIB.html" label="FIB" enabled="1" type="FILLINTHEBLANK" excludefromcount="false" url="40a8728e-92fb-4ae0-becc-4cc8cb0e02b2.xml" vtoccuepoint="1" visible="true" title="FIB" srno="4" tocno="4" rowid="0_4">
+      <question id="4" type="FILLINTHEBLANK" score="1">
+        <qtext><![CDATA[Question goes -----(1)-----]]></qtext>
+        <choice id="1" correct="yes"><![CDATA[(1) here]]></choice>
+        <questiontabproperties>
+          <questiontab>
+            <qtype unicode="1" name="Mode Type" type="checkbox">
+              <node id="1" name="Exam Mode" value="true" />
+              <node id="2" name="Review Mode" value="false" />
+              <node id="3" name="Cram Mode" value="false" />
+            </qtype>
+            <qtype unicode="2" name="Categories" type="checkbox">
+              <node id="4" name="Definitions" value="false" />
+              <node id="5" name="Math/Formula" value="false" />
+            </qtype>
+            <qtype unicode="3" name="Importance" type="combobox" select="1" attributeid="6">
+              <node id="1" name="More" value="More" />
+              <node id="2" name="Less" value="Less" />
+            </qtype>
+            <qtype unicode="4" name="Difficulty" type="combobox" select="1" attributeid="7">
+              <node id="1" name="Easy" value="Easy" />
+              <node id="2" name="Medium" value="Medium" />
+              <node id="3" name="Hard" value="Hard" />
+            </qtype>
+            <qtype unicode="5" name="Version" type="combobox" select="1" attributeid="8">
+              <node id="1" name="V1" value="V1" />
+              <node id="2" name="V2" value="V2" />
+              <node id="3" name="V3" value="V3" />
+            </qtype>
+          </questiontab>
+        </questiontabproperties>
+      </question>
+    </page>
+    <page id="5a4fa1c7-f78f-4aaf-a59b-6e633bd9d2a0" name="EQ.html" label="EQ" enabled="1" type="LONGANSWER" excludefromcount="false" url="5a4fa1c7-f78f-4aaf-a59b-6e633bd9d2a0.xml" vtoccuepoint="1" visible="true" title="EQ" srno="5" tocno="5" rowid="0_5">
+      <question id="5" type="LONGANSWER" score="1">
+        <qtext><![CDATA[Question goes here]]></qtext>
+        <questiontabproperties>
+          <questiontab>
+            <qtype unicode="1" name="Mode Type" type="checkbox">
+              <node id="1" name="Exam Mode" value="true" />
+              <node id="2" name="Review Mode" value="false" />
+              <node id="3" name="Cram Mode" value="false" />
+            </qtype>
+            <qtype unicode="2" name="Categories" type="checkbox">
+              <node id="4" name="Definitions" value="false" />
+              <node id="5" name="Math/Formula" value="false" />
+            </qtype>
+            <qtype unicode="3" name="Importance" type="combobox" select="1" attributeid="6">
+              <node id="1" name="More" value="More" />
+              <node id="2" name="Less" value="Less" />
+            </qtype>
+            <qtype unicode="4" name="Difficulty" type="combobox" select="1" attributeid="7">
+              <node id="1" name="Easy" value="Easy" />
+              <node id="2" name="Medium" value="Medium" />
+              <node id="3" name="Hard" value="Hard" />
+            </qtype>
+            <qtype unicode="5" name="Version" type="combobox" select="1" attributeid="8">
+              <node id="1" name="V1" value="V1" />
+              <node id="2" name="V2" value="V2" />
+              <node id="3" name="V3" value="V3" />
+            </qtype>
+          </questiontab>
+        </questiontabproperties>
+      </question>
+    </page>
+    <page id="67e1f68f-0bd0-4e55-86c9-367c844c8a14" name="DD.html" label="DD" enabled="1" type="DRAGANDDROP" excludefromcount="false" url="67e1f68f-0bd0-4e55-86c9-367c844c8a14.xml" vtoccuepoint="1" visible="true" title="DD" srno="6" tocno="6" rowid="0_6">
+      <question id="6" type="DRAGANDDROP" score="1">
+        <qtext><![CDATA[Question goes here]]></qtext>
+        <data>
+          <text id="1"><![CDATA[Text here]]></text>
+        </data>
+        <drops>
+          <drop id="1" target="1" />
+          <drop id="2" target="2" />
+          <drop id="3" target="2,3" />
+        </drops>
+        <drags>
+          <drag id="1"><![CDATA[Drag here]]></drag>
+          <drag id="2"><![CDATA[drag]]></drag>
+          <drag id="3"><![CDATA[drag]]></drag>
+        </drags>
+        <questiontabproperties>
+          <questiontab>
+            <qtype unicode="1" name="Mode Type" type="checkbox">
+              <node id="1" name="Exam Mode" value="true" />
+              <node id="2" name="Review Mode" value="false" />
+              <node id="3" name="Cram Mode" value="false" />
+            </qtype>
+            <qtype unicode="2" name="Categories" type="checkbox">
+              <node id="4" name="Definitions" value="false" />
+              <node id="5" name="Math/Formula" value="false" />
+            </qtype>
+            <qtype unicode="3" name="Importance" type="combobox" select="1" attributeid="6">
+              <node id="1" name="More" value="More" />
+              <node id="2" name="Less" value="Less" />
+            </qtype>
+            <qtype unicode="4" name="Difficulty" type="combobox" select="1" attributeid="7">
+              <node id="1" name="Easy" value="Easy" />
+              <node id="2" name="Medium" value="Medium" />
+              <node id="3" name="Hard" value="Hard" />
+            </qtype>
+            <qtype unicode="5" name="Version" type="combobox" select="1" attributeid="8">
+              <node id="1" name="V1" value="V1" />
+              <node id="2" name="V2" value="V2" />
+              <node id="3" name="V3" value="V3" />
+            </qtype>
+          </questiontab>
+        </questiontabproperties>
+      </question>
+    </page>
+    <page id="f26a132c-f6d4-4d1b-8a87-1433e3541f63" name="M.html" label="M" enabled="1" type="MATRIX" excludefromcount="false" url="f26a132c-f6d4-4d1b-8a87-1433e3541f63.xml" vtoccuepoint="1" visible="true" title="M" srno="7" tocno="7" rowid="0_7">
+      <question id="7" type="MATRIX" score="1">
+        <qtext><![CDATA[Question goes here]]></qtext>
+        <rows id="1"><![CDATA[Question 1]]></rows>
+        <rows id="2"><![CDATA[Question 2]]></rows>
+        <rows id="3"><![CDATA[Question 3]]></rows>
+        <columns id="1">
+          <innertitle id="1"><![CDATA[1]]></innertitle>
+          <innertitle id="2"><![CDATA[2]]></innertitle>
+          <innertitle id="3"><![CDATA[3]]></innertitle>
+          <innertitle id="4"><![CDATA[4]]></innertitle>
+          <innertitle id="5"><![CDATA[NA]]></innertitle><![CDATA[Group here]]></columns>
+        <questiontabproperties>
+          <questiontab>
+            <qtype unicode="1" name="Mode Type" type="checkbox">
+              <node id="1" name="Exam Mode" value="true" />
+              <node id="2" name="Review Mode" value="false" />
+              <node id="3" name="Cram Mode" value="false" />
+            </qtype>
+            <qtype unicode="2" name="Categories" type="checkbox">
+              <node id="4" name="Definitions" value="false" />
+              <node id="5" name="Math/Formula" value="false" />
+            </qtype>
+            <qtype unicode="3" name="Importance" type="combobox" select="1" attributeid="6">
+              <node id="1" name="More" value="More" />
+              <node id="2" name="Less" value="Less" />
+            </qtype>
+            <qtype unicode="4" name="Difficulty" type="combobox" select="1" attributeid="7">
+              <node id="1" name="Easy" value="Easy" />
+              <node id="2" name="Medium" value="Medium" />
+              <node id="3" name="Hard" value="Hard" />
+            </qtype>
+            <qtype unicode="5" name="Version" type="combobox" select="1" attributeid="8">
+              <node id="1" name="V1" value="V1" />
+              <node id="2" name="V2" value="V2" />
+              <node id="3" name="V3" value="V3" />
+            </qtype>
+          </questiontab>
+        </questiontabproperties>
+      </question>
+    </page>
+    <page id="f7fb73d4-0613-47af-9188-4cb83893bb52" name="R.html" label="R" enabled="1" type="RATING" excludefromcount="false" url="f7fb73d4-0613-47af-9188-4cb83893bb52.xml" vtoccuepoint="1" visible="true" title="R" srno="8" tocno="8" rowid="0_8">
+      <question id="8" type="RATING" score="1">
+        <qtext><![CDATA[Question goes here]]></qtext>
+        <column id="1"><![CDATA[Column heading]]></column>
+        <column id="2"><![CDATA[Column heading]]></column>
+        <column id="3"><![CDATA[Rating]]></column>
+        <rows id="1">
+          <row id="1"><![CDATA[Row text]]></row>
+          <row id="2"><![CDATA[Row text]]></row>
+        </rows>
+        <rows id="2">
+          <row id="1"><![CDATA[Row text]]></row>
+          <row id="2"><![CDATA[Row text]]></row>
+        </rows>
+        <questiontabproperties>
+          <questiontab>
+            <qtype unicode="1" name="Mode Type" type="checkbox">
+              <node id="1" name="Exam Mode" value="true" />
+              <node id="2" name="Review Mode" value="false" />
+              <node id="3" name="Cram Mode" value="false" />
+            </qtype>
+            <qtype unicode="2" name="Categories" type="checkbox">
+              <node id="4" name="Definitions" value="false" />
+              <node id="5" name="Math/Formula" value="false" />
+            </qtype>
+            <qtype unicode="3" name="Importance" type="combobox" select="1" attributeid="6">
+              <node id="1" name="More" value="More" />
+              <node id="2" name="Less" value="Less" />
+            </qtype>
+            <qtype unicode="4" name="Difficulty" type="combobox" select="1" attributeid="7">
+              <node id="1" name="Easy" value="Easy" />
+              <node id="2" name="Medium" value="Medium" />
+              <node id="3" name="Hard" value="Hard" />
+            </qtype>
+            <qtype unicode="5" name="Version" type="combobox" select="1" attributeid="8">
+              <node id="1" name="V1" value="V1" />
+              <node id="2" name="V2" value="V2" />
+              <node id="3" name="V3" value="V3" />
+            </qtype>
+          </questiontab>
+        </questiontabproperties>
+      </question>
+    </page>
+    <page id="ee27b2a0-b353-47ad-822e-05d446e42439" name="S.html" label="S" enabled="1" type="sequence" excludefromcount="false" url="ee27b2a0-b353-47ad-822e-05d446e42439.xml" vtoccuepoint="1" visible="true" title="S" srno="9" tocno="9" rowid="0_9">
+      <question id="9" type="sequence" score="1">
+        <qtext><![CDATA[Question goes here]]></qtext>
+        <sequence id="1" position="4"><![CDATA[Option 1]]></sequence>
+        <sequence id="2" position="3"><![CDATA[Option 2]]></sequence>
+        <sequence id="3" position="2"><![CDATA[Option 3]]></sequence>
+        <sequence id="4" position="1"><![CDATA[Option 4]]></sequence>
+        <questiontabproperties>
+          <questiontab>
+            <qtype unicode="1" name="Mode Type" type="checkbox">
+              <node id="1" name="Exam Mode" value="true" />
+              <node id="2" name="Review Mode" value="false" />
+              <node id="3" name="Cram Mode" value="false" />
+            </qtype>
+            <qtype unicode="2" name="Categories" type="checkbox">
+              <node id="4" name="Definitions" value="false" />
+              <node id="5" name="Math/Formula" value="false" />
+            </qtype>
+            <qtype unicode="3" name="Importance" type="combobox" select="1" attributeid="6">
+              <node id="1" name="More" value="More" />
+              <node id="2" name="Less" value="Less" />
+            </qtype>
+            <qtype unicode="4" name="Difficulty" type="combobox" select="1" attributeid="7">
+              <node id="1" name="Easy" value="Easy" />
+              <node id="2" name="Medium" value="Medium" />
+              <node id="3" name="Hard" value="Hard" />
+            </qtype>
+            <qtype unicode="5" name="Version" type="combobox" select="1" attributeid="8">
+              <node id="1" name="V1" value="V1" />
+              <node id="2" name="V2" value="V2" />
+              <node id="3" name="V3" value="V3" />
+            </qtype>
+          </questiontab>
+        </questiontabproperties>
+      </question>
+    </page>
+  </content>
+  <sequencing completioncriteria="" trackscorefor="" />
+  <navigation enablepagetransition="no" transitionstyle="Left" showtocbydefault="yes" allowtocshowhide="yes" expanded="yes" show="all" restartpgnumfortopic="no" objecttype="co" autobookmarking="yes" completioncriteria="progress" completioncondition="100" randomizequestions="no" autoexpand="no" questionlevelfeedback="yes" allowexpand="yes" trackscore="" ShowDiscussions="no" />
+  <lastVisitedPage id="P*67e1f68f-0bd0-4e55-86c9-367c844c8a14" />
+  <profilesecurity enable="false" />
+  <references title="Resources" />
+</contentobject>

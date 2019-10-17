@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+<title>Printable version</title>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({ 
+       MMLorHTML: {
+       prefer: { 
+       Chrome: "HTML" 
+            }
+        },  
+     showMathMenu: false,
+     showMathMenuMSIE: false
+  });
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
+<link rel="stylesheet" type="text/css" href="styles/skin_style.css" />
+<link rel="stylesheet" type="text/css" href="styles/styles.css" />
+<link href="styles/style.css" rel="stylesheet" type="text/css">
+
+    <style type="text/css">
+        .on
+{
+    cursor:pointer;
+}
+ .summary_result {
+	font-weight:bold;
+}
+    </style>
+<script type="text/javascript" src="scripts/jquery-1.7.2.js"></script>
+<script language="JavaScript" type="text/JavaScript">
+
+// this function is used to display the contentfrom the parent window
+
+    function addMathMLCallBack2(divId) {
+        var pg = document.getElementById(divId);
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, pg]);
+    }
+
+function tabletext()
+{
+    try {
+        var printTable1 = window.top.opener.sumtbl.outerHTML;
+        var printTable = window.top.opener.tblsummary.outerHTML;
+    }
+    catch (e) {
+        var printTable1 = window.top.opener.document.getElementById("sumtbl").outerHTML;
+        var printTable = window.top.opener.document.getElementById("tblsummary").outerHTML;
+    }
+    document.getElementById("tbldata").innerHTML = printTable1;
+    document.getElementById("tbldata").innerHTML = document.getElementById("tbldata").innerHTML + printTable;
+    //document.getElementById("tbldata").innerHTML =window.top.opener.instmaintable.innerHTML;
+
+	$("#print").hover(function () {
+	    $(this)[0].setAttribute('src', $(this)[0].getAttribute('onover'));
+	    $(this).addClass('on');
+	}, function () {
+	    $(this)[0].setAttribute('src', $(this)[0].getAttribute('onout'));
+	    $(this).removeClass('on');
+	});
+}
+addMathMLCallBack2("tbldata")
+function printPage()
+{
+	window.print()
+}
+</script>
+</head>
+<body  leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="tabletext()">
+<table width="100%" height="698" border="0" cellpadding="0" cellspacing="0">
+
+  <tr>
+    <td height="15"></td>
+  </tr>
+  <tr>
+    <td height="20" align="left" ><table width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="111" class="click"><div align="center" id="printBtn"><img src="images/print.gif" onover="images/print_over.gif" onout="images/print.gif" alt="Print" name="Image1" border="0" id="print" onclick="printPage()"> </div>
+          </td>
+          <td width="477" class="click"><p align="left" class="instrtext">Click here to print this page</p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td height="10"></td>
+  </tr>
+  <tr>
+    <td height="20" class="pg_title" id="topic">&nbsp;    </td>
+  </tr>
+  <tr>
+    <td height="10"><img src="images/horizline.jpg" width="100%" height="10"></td>
+  </tr>
+  <tr>
+    <td valign="top">    <table width="100%" align="left" cellpadding="3" >
+      <tr>
+        <td colspan="3" valign="top" class="bodytext" id="tbldata"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td  height="10"><img src="images/horizline.jpg" width="100%" height="10"></td>
+  </tr>
+  <tr>
+    <td width="600" valign="top"><table width="100%" align="left" >
+        <tr>
+          <!-- <td width="580" height="20"  colspan="3" valign="top" class="bodytext"><strong>YOUR ANSWER:</strong></td> -->
+        </tr>
+        <tr>
+          <td colspan="3" valign="top" class="bodytext" id="userresp"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+   <!-- <td  height="10"><img src="images/horizline.jpg" width="580" height="10"></td> -->
+  </tr>
+  <tr>
+    <td valign="top" >
+      <table width="100%" align="left">
+        <tr>
+         <!--  <td width="580"   colspan="3" valign="top" class="bodytext"><strong>SUGGESTED RESPONSE:</strong></td> -->
+        </tr>
+        <tr>
+          <td colspan="3" valign="top" class="bodytext" id="Expertresp"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  
+</table></BODY>
+</html>

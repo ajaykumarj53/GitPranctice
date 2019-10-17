@@ -1,0 +1,335 @@
+<TABLE class="content" id="instsampletable" style="" width="100%" height="100%"  valign="top">	
+    
+<tr style="display:none"><td><!--printimage--></td></tr>
+<tr>
+<td valign="top" style="height:100%"><script>
+var hideTitle = 'no';
+</script>
+<Table id='instmaintable' class='content' width='100%' height='auto' cellpadding='0' cellspacing='0'><tr><td valign='top'><div style='background:;border:0px solid #CCCCCC;padding:0px 0px 0px 0px;margin:0px 0px 0px 0px'><div class='row' ><div class='col-sm-12 resize-div'><div class='dropable-div' id='6da7165e-d188-ee10-c39c-930925a5c1d0'><div id='questionContainer5'><div id='questiontext5' data-delay='0' class='  ' style='background-color:;border:0px solid #CCCCCC;border-radius:px;padding:0px 0px 0px 0px;margin:0px 0px 0px 0px'>Question goes here </div></div><div id='longanswerContainer' style='padding:0px 0px 0px 0px;margin:0px 0px 0px 0px'><textarea style= "width:100%; height:120px;" value="" id="txtAnswer_5" onkeyup='javascript:CharCount(5);'></textarea><br/><div style='width:100%'><span id='maxcnt_5' style='color:#FF0033; float:right;'>0/1200 </span></div></div><div id='submitcontainer5' data-delay='0' class=' '  style='margin-top: 20px;padding:0px 0px 0px 0px;margin:8px 0px 8px 0px'>
+<script>
+    $("#submitbut5").hover(function(){
+        $(this)[0].setAttribute('out', $(this)[0].getAttribute('src'));
+        $(this)[0].setAttribute('src', $(this)[0].getAttribute('onover'));
+        $(this).addClass('on');
+    }, function(){
+        $(this)[0].setAttribute('src', $(this)[0].getAttribute('out'));
+        $(this).removeClass('on');
+    });
+</script><div title="Submit" alt="Submit" name="submitbut" id="submitbut5" data-attr='5' border="0" class="submitbut"><span>Submit</span></div><div title="Hint" alt="Hint" id="hintbut5" data-attr='5' name="hintbut" border="0" class="submitbut"><span>Hint</span></div><div title="Solution" alt="Solution" id="solutionbut5" data-attr='5' name="solutionbut" border="0" class="submitbut"><span>Solution</span></div></div><div id='feedbackContainer5' style='position:relative; padding:2px 7px 2px 0px;margin:0px 0px 0px 0px'><div id='correctfeedback' style='display:none; position:relative;padding:8px; width:97%; height:auto; line-height:normal; overflow:auto; z-index:0; left:0px; border:0px solid #CCCCCC; background-color:;padding:0px 0px 0px 0px;margin:0px 0px 0px 0px'><div style='min-height:30px'>Feedback goes here</div></div></div></div></div></div></div><div id='8417d78c-054a-7bae-d838-6166eb655943'  type='hints' class="layers" layerheight = "250" style='display:none; position: absolute; width:52.6315789473684% !important; height:62.5% !important; top:16.25% !important; left:17.3684210526316% !important; background:#F1F1F1; border:0px solid #CCCCCC'>
+<div id='closeBtn_8417d78c-054a-7bae-d838-6166eb655943' class='layer-close-top-right' title='Close' type='hints'>X</div><div style='background:;border:0px solid #CCCCCC'><div class='row'><div class='col-sm-12 resize-div'><div class='dropable-div' id='622a78ca-27be-4b04-b0cc-bdd58d0da82a'><div id='011094eb-54c9-aed4-a5a4-e50666e99654'  style='border-radius:1px; line-height:normal; background:; border:0px solid #CCCCCC'>Sample Text eq hint</div></div></div></div></div></div><div id='3bc25304-47e5-a885-5c0b-273c3cd7057b'  type='solution' class="layers" layerheight = "250" style='display:none; position: absolute; width:52.6315789473684% !important; height:62.5% !important; top:16.25% !important; left:17.3684210526316% !important; background:#F1F1F1; border:0px solid #CCCCCC'>
+<div id='closeBtn_3bc25304-47e5-a885-5c0b-273c3cd7057b' class='layer-close-top-right' title='Close' type='solution'>X</div><div style='background:;border:0px solid #CCCCCC'><div class='row'><div class='col-sm-12 resize-div'><div class='dropable-div' id='8c65cb60-a071-35e7-e866-8594a01e9e42'><div id='11623293-7edc-b869-5116-22bd25c0c662'  style='border-radius:1px; line-height:normal; background:; border:0px solid #CCCCCC'>Sample Text eq sol</div></div></div></div></div></div>
+<script> try{$('.layers').each(function(){ if($(this).css('display') == 'none'){$(this).data('visible','false');} $(this).css('display',''); $(this).find('img').each(function () {if ($(this).height() != $(this).parent().height()) {$(this).height($(this).parent().height()); } }); if($(this).data('visible') == 'false'){$(this).css('display','none'); $(this).removeData('visible');}});}catch(e){}</script>
+
+<script>
+
+</script>
+<script>
+addinstClass(); disableSolutionButton(5);
+</script></td></tr></table>
+<script>
+   $('#attachContent_5').bind('click', function() { getLAattachPopup(5); });var fileName5 = "";var fileId5 = "";
+var remed5 =  getCoValues('remediation');
+var isRequriedAttachLA5 = chkIsLearnerMode(false);
+var fileName1 = "";
+var fileId1 = "";
+var removefileId = "";
+ $('#submitbut5').click(function(){
+ debugger;
+  var qtn = $(this).attr('data-attr');
+
+
+ if (document.getElementById("txtAnswer_" + qtn )!= null){
+  if (document.getElementById("txtAnswer_" + qtn ).value != "" ){ 
+   if (trackObjects[SeqID].advancetonagivate == "yes" && remed5 != "yes"){ callAdvancetoNext(); }else{
+  if(trackObjects[SeqID].showfeedbacktype == 'page'){
+  $('#feedbackContainer'+qtn +' #correctfeedback').css("display", "");  
+  enableSolutionButton(5);
+if(trackObjects[SeqID].disableControls == "yes" || remed == "yes"){
+
+$("#submitbut5").unbind('click');
+
+ $("#submitbut5").fadeTo("slow", 0.5);
+
+}
+
+ }else{
+  showFeedbackPopup(('#feedbackContainer'+qtn +' #correctfeedback').html());  } 
+           } 
+		    }
+		   else {
+      ShowAlert('Please provide a response and click on the Submit button to continue.');   }       
+           }
+
+
+           });
+$('#hintbut5').bind('click', function(){showHintLayer($(this))});
+</script>
+</td></tr>
+ <TR valign="top">
+<td valign="top"><table id=""  cellspacing=0 cellpadding=3 width="100%" >
+</table>
+</TD>
+</TR>
+<TR valign="top">
+<TD valign="top"><table id="" cellspacing=0 cellpadding=3 width="100%" >
+<div id='popupDiv' title="Popup Title" style='display:none'></div>
+<div id='audioPoster' style='position:absolute; display:none'><!--<img src="images/audioIcon.jpg"/>--></div>
+<div id='videoPoster' style='position:absolute; display:none'><!--<img src="images/videoIcon.jpg"/>--></div>
+</table></TD>
+</TR>
+</TABLE>
+<style>.instcontentbg { BACKGROUND -REPEAT : no -repeat }</style>
+       
+<script type="text/javascript">
+var QuestionNo;
+var order;
+
+
+pageid='_0'
+function setUserResponse() {
+if(document.getElementById("txtAnswer_5") != null){
+    $('#txtAnswer_5').focus();
+    if(pages[SeqID] != undefined) {
+        document.getElementById('txtAnswer_5').value = getCoValues('useranswer') == undefined ? '' : getCoValues('useranswer');
+        document.getElementById('maxcnt_5').innerHTML = document.getElementById("txtAnswer_5").value.length +"/1200";
+    }
+}
+ if(getCoValues('filename') != undefined){
+       fileName5 =getCoValues('filename');
+       fileId5 = getCoValues('fileid');
+  }
+  updateAttachContentDetails(fileName5,'',5);
+    if(getCoValues('capturedvidfilename') != undefined && document.getElementById('videocapture_'+getVideoObjectId()) != null && getCoValues('capturedvidfilename') != "undefined" && getCoValues('capturedvidfilename') != ""){
+      capVidFileName5 = getCoValues('capturedvidfilename');
+      capVidFileId5 = getCoValues('capturedvidid');
+      var type = 'videocapupload';	   
+         currCapVideoObjId = getVideoObjectId();
+      updateAttachContentDetails(capVidFileName5, '', '', type,capVidFileId5);
+      $("#removeVideo_"+currCapVideoObjId).css("display","");
+    }
+    if(getCoValues('capturedimgfilename') != undefined && document.getElementById('videocapImg_'+getVideoObjectId()) != null && getCoValues('capturedimgfilename') != "undefined" && getCoValues('capturedimgfilename') != ""){
+      capImgFileName5 =getCoValues('capturedimgfilename');
+      capImgFileId5 = getCoValues('capturedimgid');	   
+      var type = 'imagecapupload';	 
+         currCapImageObjId = getVideoObjectId();
+      updateAttachContentDetails(capImgFileName5, '', '', type,capImgFileId5);
+      $("#removeImage_"+currCapImageObjId).css("display","");
+    }
+}
+
+function getVideoObjectId(){
+var objid = '';
+$('video.capturemedia').each(function(){
+   var id = $(this).attr('id');		
+   var objIdArr = id.split('_');
+   objid = objIdArr[objIdArr.length-1];
+});
+return objid;
+}
+function removeCapturedVideo(id,num){
+var video = document.getElementById('videocapture_'+id);
+$(video)[0].setAttribute("src", "");
+this['capVidFileName' + num] = "";
+this['capVidFileId' + num] = "";
+$("#removeVideo_"+id).css("display","none");
+$('#strokeSliderVideo_'+id).slider('value', 0);
+videoPlayPause(video,id);
+$("#play_"+id).css("display","none");
+$('#vidDurTxt_' + id).html("00:00");
+$('#durationVideo_' + id).html("00:00");
+}
+function removeCapturedImage(id,num){
+var div = document.getElementById('capturedImgDiv_'+id);
+$(div).find("img").attr("src", "");
+this['capImgFileName' + num] = "";
+this['capImgFileId' + num] = "";
+$("#removeImage_"+id).css("display","none");
+$(div).find("img").css("opacity",0);
+}
+
+function getUserResponse() {
+   if(isRequriedAttachLA5 == true){
+     if(fileName5 != ""){
+         setCOValues('filename', fileName5);
+         setCOValues('fileid', fileId5);
+         isNoDocAttached = true;
+     if(document.getElementById('videocapture_'+getVideoObjectId()) != null){
+         setCOValues('capturedvidfilename', capVidFileName5);
+         setCOValues('capturedvidid', capVidFileId5);
+     }
+     if(document.getElementById('videocapImg_'+getVideoObjectId()) != null){
+         setCOValues('capturedimgfilename', capImgFileName5);
+         setCOValues('capturedimgid', capImgFileId5);
+     } 
+      var value = "";
+      if(document.getElementById("txtAnswer_5") != null){
+         value =  document.getElementById("txtAnswer_5").value;
+      }else{
+         value = "NA";
+      } 
+      return value;
+     }else{
+         isNoDocAttached = false;
+      if(document.getElementById("txtAnswer_5") != null){
+         if(document.getElementById("txtAnswer_5").value == "")
+         isNoDocAttached = true;
+      } 
+     if(document.getElementById('videocapture_'+getVideoObjectId()) != null){
+         setCOValues('capturedvidfilename', capVidFileName5);
+         setCOValues('capturedvidid', capVidFileId5);
+     }
+     if(document.getElementById('videocapImg_'+getVideoObjectId()) != null){
+         setCOValues('capturedimgfilename', capImgFileName5);
+         setCOValues('capturedimgid', capImgFileId5);
+     } 
+      var value = "";
+      if(document.getElementById("txtAnswer_5") != null){
+         value =  document.getElementById("txtAnswer_5").value;
+      }else{
+         value = "NA";
+      } 
+      return value;
+     }
+ }
+ else{
+     if(fileName5 != undefined) 
+       setCOValues('filename', fileName5);
+       setCOValues('fileid', fileId5);
+     if(document.getElementById('videocapture_'+getVideoObjectId()) != null){
+         setCOValues('capturedvidfilename', capVidFileName5);
+         setCOValues('capturedvidid', capVidFileId5);
+     }
+     if(document.getElementById('videocapImg_'+getVideoObjectId()) != null){
+         setCOValues('capturedimgfilename', capImgFileName5);
+         setCOValues('capturedimgid', capImgFileId5);
+     } 
+      var value = "";
+      if(document.getElementById("txtAnswer_5") != null){
+         value =  document.getElementById("txtAnswer_5").value;
+      }else{
+         value = "NA";
+      } 
+      return value;
+  }
+}
+function CharCount() {
+var alertmsg = false; if(document.getElementById('txtAnswer_5').value.indexOf(">") > -1)
+{ document.getElementById('txtAnswer_5').value = document.getElementById('txtAnswer_5').value.substring(0,document.getElementById('txtAnswer').value.indexOf(">"));  alertmsg = true; }
+if(document.getElementById('txtAnswer_5').value.indexOf("<") > -1) {
+document.getElementById('txtAnswer_5').value =  document.getElementById('txtAnswer_5').value.substring(0,document.getElementById('txtAnswer').value.indexOf("<"));	 alertmsg = true; } 
+if(document.getElementById('txtAnswer_5').value.indexOf("+") > -1) {
+document.getElementById('txtAnswer_5').value =  document.getElementById('txtAnswer_5').value.substring(0,document.getElementById('txtAnswer').value.indexOf("+"));	 alertmsg = true; } 
+if (alertmsg) ShowAlert('The \'<\' , \'>\', \'+\'  characters are not supported.'); 
+var cnt=document.getElementById('txtAnswer_5').value;
+if (cnt.length > 1200){   
+ShowAlert('You can not type more than 1200 characters.');
+document.getElementById('txtAnswer_5').value =  document.getElementById('txtAnswer_5').value.substring(0,1200);
+cnt=document.getElementById('txtAnswer_5').value; }
+document.getElementById('maxcnt_5').innerHTML=cnt.length +"/1200"
+}
+
+$('#submitbut').click(function(){
+showFeedback()
+ });
+function showFeedback(){
+  if(validateTextArea() && validateAttachFile() && validateCaptureVideo() && validateCaptureImage()){
+      isSubmitted= true; enableSolutionButton();
+      if (trackObjects[SeqID].advancetonagivate == "yes"){ callAdvancetoNext(); }else{ // bhushanam added this condition for advance to next 
+         if(trackObjects[SeqID].showfeedbacktype == 'page'){
+            $('#correctfeedback').show();
+         }else{
+            showFeedbackPopup($('#correctfeedback').html());
+         }
+      if(trackObjects[SeqID].disableControls == "yes"){
+          if(document.getElementById("submitbut") != null){
+             $("#submitbut").unbind('click');
+             $("#submitbut").fadeTo("slow", 0.5);
+          }
+          $('#txtAnswer').attr('disabled','true');
+          try{
+          $('#removeDiv_1').unbind('click');
+          }catch(e){}
+          try{
+            $('#attachContent_1').unbind('click');
+          }catch(e){}
+      }
+     } // end advance to next.
+   }
+   else{
+      if( !(validateAttachFile())){
+          ShowAlert("Your response is missing the attachment.");
+          return false;
+      } else if (!(validateCaptureVideo())) {
+          ShowAlert("Your response is missing the captured video attachment.");
+          return false;
+      } else if (!(validateCaptureImage())) {
+          ShowAlert("Your response is missing the captured image attachment.");
+          return false;
+      }else {
+          ShowAlert("Please provide a response and click on the Next button to continue.");
+          return false;
+      }
+   }
+}
+function validateTextArea(){
+if (document.getElementById("txtAnswer") != null) {
+if (trimWhiteSpaces(document.getElementById('txtAnswer').value) != ""){
+return true;
+}else{
+ return false;
+}
+}else{
+return true;
+}
+}
+function validateAttachFile(){
+if(isRequriedAttachLA == true && !isPreviewMode()){
+ if(fileName5 != "") {
+return true;
+}else{
+return false;
+}
+}else{
+return true;
+}
+}
+function validateCaptureVideo(){
+if((document.getElementById('videocapture_'+getVideoObjectId()) != null) && !isPreviewMode()){
+if(capVidFileName5 != ""){
+return true;
+}else{
+return false;
+}
+}else{
+ return true;
+}
+}
+function validateCaptureImage(){
+if((document.getElementById('videocapImg_'+getVideoObjectId()) != null) && !isPreviewMode()){
+if(capImgFileName5 != ""){
+ return true;
+}else{
+return false;
+}
+}else{
+return true;
+}	
+}
+function checkForVideoCapture(){
+if((document.getElementById('videocapture_'+getVideoObjectId()) != null) && !isPreviewMode())
+return true;
+else
+ return false;
+}
+function checkForImageCapture(){
+if((document.getElementById('videocapImg_'+getVideoObjectId()) != null) && !isPreviewMode())
+return true;
+else
+return false;
+}
+function trimWhiteSpaces (str) {
+return str.replace(/^\s\s*/, '').replace(/\s\s*$/, '');
+}
+<!--instancyautoplayaudio-->
+<!--instancypagetextresponses-->
+</script>

@@ -1,0 +1,122 @@
+<devices>
+  <deviceoutput id="cfe6fa89-91a8-4469-8902-7f0742844c29" type="1" label="HTML" master="true" skinreference="">
+    <metadata>
+      <title>9 questions</title>
+      <longdescription />
+      <templateId>6</templateId>
+      <author />
+      <createddate />
+      <publicationdate />
+      <startdate />
+      <expirydate />
+      <vesion />
+      <keywords />
+      <language>en-us</language>
+      <assessmenttype />
+      <!-- Co=8, Ao=27 and Survey=28   -->
+    </metadata>
+    <options>
+      <layout width="" height="" bgcolor="" bgalpha="" scroll="" border="" bordercolor="" bgimage="" bgaudio="" transcript="" pageorientation="Portrait" pagesize="Default From Skin" pagesizewidth="" pagesizeheight="" imageresolution="" margintop="1" marginbottom="1" marginright="1" marginleft="1" pagenumbering="Default From Skin" passwordrequired="" password="" permissions="" includeTranscript="yes" bg="no" bgcid="" bgsize="" bgrepeat="" />
+      <navigation enablepagetransition="" disableelementselection="yes" singleqtnperpage="yes" randomizeoptions="no" trackscore="yes" questionnoformat="none" enablenotesfortrack="no" passscore="80" itemstodisplay="9" updateditemstodisplay="no" printoption="no" printoptionall="no" enableprintfortrack="no" allowfontincrease="no" transitionstyle="" showtocbydefault="" changelanguage="no" allowtocshowhide="" expanded="" showpagenumber="yes" showitems="all" restartpgnumfortopic="no" objecttype="co" autobookmarking="yes" randomizequestions="no" autoexpand="no" questionlevelfeedback="yes" allowexpand="yes" showcc="no" hidetoc="no" chkDynamicContent="yes" ispagebookmark="yes" progresscompletioncriteria="yes" allowedattempts="unlimited" navigation="Allow Navigation" enablejplayer="no" showtracktitle="yes" showblocktitle="yes" showSubmit="yes" showmoduletitle="yes" hidetoctopic="no" hidesummarypage="no" showtopictitle="yes" optionlevelfeedback="no" showtracklevelprogress="no" disableControls="no" showfeedbacktype="page" coursehints="yes" showpagetitle="yes" attachcontentLA="no" advancetonextquestion="yes" showretake="yes" requiredcontentLA="no" mshowtracktitle="no" mshowblocktitle="no" mshowmoduletitle="no" CreateQuestionInstances="no" mshowtopictitle="no" mshowpagetitle="no" enablenextfortimeline="no" autoretake="no" autopoolgeneration="true" easyquestions="0" mediumquestions="0" hardquestions="0" showtocpagetitle="yes" multiplefileuploadvalue="1" startcourseoption="no" enablebookmarkfortrack="no" istrackpagebookmark="yes" istracktopicbookmark="no" showsolutions="yes" specifiedpoolgeneration="false" scoredisplayoption="percentage" setsamescoreperquestion="yes" scoreperitem="1" allowcopynotes="yes" userpagenotes="yes" contentprogressbar="yes" chkanynavigationconstraints="no" dynamicrendering="yes" enableresourcesfortrack="no" enablecollaborationfortrack="no" enableglossaryfortrack="no" tocseqeuncenavigation="no" enablefreesample="no" freesampleitemscount="" enablesearch="no" buyattempts="no" attemptstobuy="" buyattemptsprice="" buyattemptscurrency="" enabletimer="no" settimelimithrs="00" settimelimitmins="00" settimelimitsecs="00" firstwarninghrs="00" firstwarningmins="00" firstwarningsecs="00" secondwarninghrs="00" secondwarningmins="00" secondwarningsecs="00" timeleft="yes" timeelapsed="no" quespoolpickany="yes" quespoolpicattopic="no" assesmentlevelpickwithdiff="yes" topiclevelpickwithdiff="no" suspenddataupdateonattempt="no" selectedthemetype="original" singlePageRendering="no" maxhints="unlimited">
+        <warningmessage><![CDATA[]]></warningmessage>
+        <timeexpirymessage><![CDATA[]]></timeexpirymessage>
+      </navigation>
+      <exportsettings filename="" usetitleasfilename="" addbookmarks="" addtoc="" addcometadatatopdf="" linkglossary="" referencepageforlinksrc="" associatedaudiovideo="" hidetoolbar="" hidewindowcontrol="" hidemenus="" defaultview="Fit Height" enablewatermark="" watermarkimage="" watermarkimagecid="" />
+      <completioncriteria mode="" value="" percentage="100" Flashoptimisefor="" enablelistview="" applytrackskin="" showcc="no" dynamicrendering="yes" />
+      <inheritfromprimary all="yes" image="yes" video="yes" audio="yes" flash="yes" text="yes" notes="yes" transcript="yes" bulletnumbering="yes" autoorganize="yes" bgaudio="yes" bgimage="yes" bgcolor="yes" border="yes" popup="yes" hyperlink="yes" flipover="yes" tables="yes" hotspot="yes" hr="yes" html="yes" />
+      <bandwidth highbandwidth="yes" lowbandwidth="no" mediumbandwidth="no" enabledforimage="no" enabledforvideo="no" enabledforaudio="no" />
+      <logo src="" cid="" height="" width="" />
+      <themebackground src="" cid="" />
+      <glossary id="" name="" />
+      <freesample>
+        <alertmessage><![CDATA[]]></alertmessage>
+      </freesample>
+      <Collaboration ShowDiscussions="no" ShowAsModel="no" />
+      <summary>
+        <displayfields name="yes" score="yes" userscore="yes" result="yes" totalquestion="yes" correctanswers="yes" incorrectanswers="yes" showquestiontext="yes" showresponse="yes" showcorrectincorrect="yes" showfeedback="yes" showqno="yes" showprint="yes" attemptsleft="yes" summaryattempt="1" showedit="yes" showreview="yes" showretake="yes" />
+        <onpass><![CDATA[Congratulations, you have passed the test.]]></onpass>
+        <onfail><![CDATA[Sorry, you did not pass the test.]]></onfail>
+      </summary>
+      <gradingoptions trackscore="yes" passscore="80" scoreperitem="1" feedbackoptions="After each question" setsamescoreperquestion="yes" scoredisplayoption="percentage" />
+      <themesetting headercolor="" footercolor="" buttonscolor="" buttonstextcolor="" buttonstextfont="12" buttonstextfontstyle="Times New Roman" tocbgcolor="" toccoursetitlebg="" toccoursetitlefontsize="12" toccoursetitlefontstyle="Times New Roman" toccoursetitlecolor="" toctopicsubbg="" toctopicsubfontsize="12" toctopicsubfontstyle="Times New Roman" toctopicsubcolor="" pageicon="fa fa-circle" visitedpageicon="fa fa-check" blockbgcolor="" blockcoursetitlebg="" blockcoursetitlefontsize="12" blockcoursetitlefontstyle="Times New Roman" blockcoursetitlecolor="" />
+      <languages available_langs="english">
+        <lang name="english" langid="lang_english_en-us" selected="true" langref="en-us" />
+      </languages>
+    </options>
+    <toc>
+      <page id="08cb1447-e76c-4aea-9e2c-7e19f4c2e944" />
+      <page id="c3be417f-ac5c-44ac-b772-5775dca233e8" />
+      <page id="302e3e72-a2e5-4d14-9106-4aba732cfb62" />
+      <page id="949ded4b-9680-427d-b182-2a44a60f34be" />
+      <page id="40a8728e-92fb-4ae0-becc-4cc8cb0e02b2" />
+      <page id="5a4fa1c7-f78f-4aaf-a59b-6e633bd9d2a0" />
+      <page id="67e1f68f-0bd0-4e55-86c9-367c844c8a14" />
+      <page id="f26a132c-f6d4-4d1b-8a87-1433e3541f63" />
+      <page id="f7fb73d4-0613-47af-9188-4cb83893bb52" />
+      <page id="ee27b2a0-b353-47ad-822e-05d446e42439" />
+    </toc>
+    <pageobjects>
+      <pageobject id="c733e338-b1a0-a74d-37a8-12271c95213d" />
+      <pageobject id="0e701665-983d-6689-8482-3904e79d1e42" />
+      <pageobject id="297ad6ab-2300-819a-5ed5-699992e54c49" />
+      <pageobject id="7e5c3c38-9623-0170-98e5-90d9500066b2" />
+      <pageobject id="29c3a480-160e-7abb-83b2-06c8c430ecda" />
+      <pageobject id="e941ed57-0e32-c34b-ad08-6a0023b61705" />
+      <pageobject id="2a2cb93d-3542-39bd-0998-95bb0c5277d7" />
+      <pageobject id="a87616cb-3d75-37e0-c2d3-92647ce09130" />
+      <pageobject id="1ca39d6d-8074-c7d9-bb69-e7d8b2c925a9" />
+      <pageobject id="5492966d-136e-788b-dbb2-0cd4e7b5de00" />
+      <pageobject id="46545b02-492e-ec0c-1ebd-7d34ac857d66" />
+      <pageobject id="513d5300-e009-b372-b23d-e5751e2891c8" />
+      <pageobject id="19a2505e-d75d-bd92-34b7-60b2694d053c" />
+      <pageobject id="a8b8ccdd-282e-7d9a-4000-94ab13b0ddd1" />
+      <pageobject id="5a883687-c15a-4051-d19a-e6a56c01481b" />
+      <pageobject id="c43e32e9-9144-b7b9-5e7e-777219cca408" />
+      <pageobject id="06a88ad9-7dea-98ed-9720-ca3ba07e467c" />
+      <pageobject id="e78887d8-4eeb-5535-b4b6-4027b5820cd3" />
+      <pageobject id="bc2d6994-1bec-a9d9-e180-e689e50347bc" />
+      <pageobject id="d8301e59-2837-ae43-be21-090e66318ed5" />
+      <pageobject id="4260062e-5ac6-1ee7-1190-3b9553409b18" />
+      <pageobject id="eabb95db-b3e8-333c-1d8e-2b1a387b02bd" />
+      <pageobject id="6e433ab0-d0ea-ee92-0695-e919847b0c79" />
+      <pageobject id="55b9b2ba-39c0-c359-3b85-d684147e81ed" />
+      <pageobject id="891aeeb5-9d62-a245-dd7d-341490e82484" />
+      <pageobject id="a6b2da32-2753-2194-9606-ead274922dc3" />
+      <pageobject id="c146831d-2503-2693-4030-2ad40b07ad86" />
+      <pageobject id="445660d5-1c25-c6b3-9e9a-2dc142dae150" />
+      <pageobject id="181d8ec1-437d-2539-4200-9ac3551220dd" />
+      <pageobject id="a9e300e6-c394-805b-5eb8-77563e782bd9" />
+      <pageobject id="1221ea3b-7bc0-4b01-dc89-d7d9a43a1d7d" />
+      <pageobject id="22db52ce-adbb-39a3-599e-4eb5b2ca8d94" />
+      <pageobject id="94dbac3c-0e5c-164c-5711-61b45b555153" />
+      <pageobject id="68c99845-6603-a9ed-8606-3b383c7d2400" />
+      <pageobject id="e46ee2be-e492-9772-3963-07c86e3c0024" />
+      <pageobject id="1a7e5a61-d44c-a8e6-3c30-b44c887ea9c1" />
+      <pageobject id="46ace1b9-71a5-5703-ba6c-794d884e7406" />
+      <pageobject id="6a1a0a48-5d5d-6ee5-5145-3a3c6bbcc0d3" />
+      <pageobject id="87e791bc-3a6c-4ba7-c246-3b36a565c3a6" />
+      <pageobject id="a6adad52-64a5-6512-e78c-ed8b06aaa0c1" />
+      <pageobject id="6e399503-7326-2120-bdd3-b1baaacb9710" />
+      <pageobject id="0ae66c08-6ce8-ecd4-99a4-7e83c72ab090" />
+      <pageobject id="824da730-a18a-0ae0-daa9-89e2564134aa" />
+      <pageobject id="984e0e77-7cdc-a624-b787-1642242cb1c9" />
+      <pageobject id="617be5be-d062-dd74-0d29-a28ed737dc3c" />
+      <pageobject id="6ae5c9c3-c5ea-a9b9-1623-a548e649e48a" />
+      <pageobject id="5c7189e4-37b1-68b7-4c9e-6ad1aaa52eb3" />
+      <pageobject id="508e0b3e-c88c-c2b4-980b-8010d59edd9d" />
+      <pageobject id="97684bee-d792-7241-ce12-6764bca17ec5" />
+      <pageobject id="29156a0a-baa4-9e11-dcad-9995cd2dd43e" />
+      <pageobject id="d3bd1763-53a2-0c1a-6cea-c1e22153ac3e" />
+      <pageobject id="6e4a3cb3-0d24-2591-e69a-37c3284d1278" />
+      <pageobject id="a27019b5-ba30-3434-3b57-19308410d4c4" />
+      <pageobject id="335cc617-b606-43e3-bad6-8b069bbd5bae" />
+      <pageobject id="2751c5dc-1ca3-bd69-9506-8d6c164aa393" />
+      <pageobject id="a6e9d73c-9eea-4c39-eb81-7de607684cb1" />
+      <pageobject id="4dcda608-461e-b3dd-1ad4-cda745e9157d" />
+      <pageobject id="a0c798d1-2d33-4075-7bb5-e7d9dcb9b027" />
+      <pageobject id="1db06396-cc44-3a52-b306-b7ec9b110ecd" />
+      <pageobject id="737c07b5-e149-64a9-1863-ea8dd8034883" />
+      <pageobject id="9e87781a-e659-aab1-7379-4e9a37330286" />
+    </pageobjects>
+  </deviceoutput>
+</devices>

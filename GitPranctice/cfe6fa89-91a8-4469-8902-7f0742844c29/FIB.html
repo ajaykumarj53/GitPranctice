@@ -1,0 +1,275 @@
+<TABLE class="content" id="instsampletable" style="" width="100%" height="100%"  valign="top">	
+    
+<tr style="display:none"><td><!--printimage--></td></tr>
+<tr>
+<td valign="top" style="height:100%"><script>
+var hideTitle = 'no';
+</script>
+<Table id='instmaintable' class='content' width='100%' height='auto' cellpadding='0' cellspacing='0'><tr><td valign='top'><div style='background:;border:0px solid #CCCCCC;padding:0px 0px 0px 0px;margin:0px 0px 0px 0px'><div class='row' ><div class='col-sm-12 resize-div'><div class='dropable-div' id='eed268c2-0d15-b68b-4163-a28e2036d2da'><div id='questionContainer4'><div id='questiontext4' data-delay='0' class='  ' style='background-color:;border:0px solid #CCCCCC;border-radius:px;padding:0px 0px 0px 0px;margin:0px 0px 0px 0px'>Question goes <input type='text' id='txtanswer_4_1' /> </div></div><div id='submitcontainer4' data-delay='0' class=' '  style='margin-top: 20px;padding:0px 0px 0px 0px;margin:8px 0px 8px 0px'>
+<script>
+    $("#submitbut4").hover(function(){
+        $(this)[0].setAttribute('out', $(this)[0].getAttribute('src'));
+        $(this)[0].setAttribute('src', $(this)[0].getAttribute('onover'));
+        $(this).addClass('on');
+    }, function(){
+        $(this)[0].setAttribute('src', $(this)[0].getAttribute('out'));
+        $(this).removeClass('on');
+    });
+</script><div title="Submit" alt="Submit" name="submitbut" id="submitbut4" data-attr='4' border="0" class="submitbut"><span>Submit</span></div><div title="Hint" alt="Hint" id="hintbut4" data-attr='4' name="hintbut" border="0" class="submitbut"><span>Hint</span></div><div title="Solution" alt="Solution" id="solutionbut4" data-attr='4' name="solutionbut" border="0" class="submitbut"><span>Solution</span></div></div><div id='feedbackContainer4' style='position:relative; padding:2px 7px 2px 0px;margin:0px 0px 0px 0px'><div id='correctfeedback' style='display:none; position:relative;padding:8px; width:97%; height:auto; line-height:normal; overflow:auto; z-index:0; left:0px; border:0px solid #CCCCCC; background-color:;padding:0px 0px 0px 0px;margin:0px 0px 0px 0px'><div style='min-height:30px'>Correct</div></div><div id='incorrectfeedback' style='display:none; position:relative;padding:8px; width:97%; height:auto; line-height:normal; overflow:auto; z-index:0; left:0px; border:0px solid #CCCCCC; background-color:;padding:0px 0px 0px 0px;margin:0px 0px 0px 0px'><div style='min-height:30px'>Incorrect</div></div><div id='remediationfeedback' style='display:none; position:relative;padding:8px; width:97%; height:auto; line-height:normal; overflow:auto; z-index:0; left:0px; border:0px solid #CCCCCC; background-color:;padding:0px 0px 0px 0px;margin:0px 0px 0px 0px'><div style='min-height:30px'>Remediation</div></div></div></div></div></div></div><div id='eda76b68-a8be-cdb5-1266-74a4339347a2'  type='hints' class="layers" layerheight = "250" style='display:none; position: absolute; width:52.6315789473684% !important; height:62.5% !important; top:16.25% !important; left:17.3684210526316% !important; background:#F1F1F1; border:0px solid #CCCCCC'>
+<div id='closeBtn_eda76b68-a8be-cdb5-1266-74a4339347a2' class='layer-close-top-right' title='Close' type='hints'>X</div><div style='background:;border:0px solid #CCCCCC'><div class='row'><div class='col-sm-12 resize-div'><div class='dropable-div' id='3b491abe-1d4b-89c2-2768-a4cbae8a853d'><div id='d2c65b3c-a32a-46a7-8c27-eb9ae57515d7'  style='border-radius:1px; line-height:normal; background:; border:0px solid #CCCCCC'>fib hint</div></div></div></div></div></div><div id='a06ce315-6bcd-64cc-7a9e-201d15a8b17a'  type='solution' class="layers" layerheight = "250" style='display:none; position: absolute; width:52.6315789473684% !important; height:62.5% !important; top:16.25% !important; left:17.3684210526316% !important; background:#F1F1F1; border:0px solid #CCCCCC'>
+<div id='closeBtn_a06ce315-6bcd-64cc-7a9e-201d15a8b17a' class='layer-close-top-right' title='Close' type='solution'>X</div><div style='background:;border:0px solid #CCCCCC'><div class='row'><div class='col-sm-12 resize-div'><div class='dropable-div' id='15b1ddea-aecd-c400-11a7-96b86abbd6da'><div id='b0c7889c-35aa-1ac8-cec4-87022671d296'  style='border-radius:1px; line-height:normal; background:; border:0px solid #CCCCCC'>Sample Text fin sol</div></div></div></div></div></div>
+<script> try{$('.layers').each(function(){ if($(this).css('display') == 'none'){$(this).data('visible','false');} $(this).css('display',''); $(this).find('img').each(function () {if ($(this).height() != $(this).parent().height()) {$(this).height($(this).parent().height()); } }); if($(this).data('visible') == 'false'){$(this).css('display','none'); $(this).removeData('visible');}});}catch(e){}</script>
+
+<script>
+
+</script>
+<script>
+addinstClass(); disableSolutionButton(4);
+</script></td></tr></table>
+<script>
+var totalOptions4= "1";var correctAnswer4 = [];
+correctAnswer4[0]=['here'];
+
+var remed4 =  getCoValues('remediation');
+var isMultipleFIB;
+var mystr = "correctAnswer";
+var userAnswer = [];
+var maxAttempts = getCoValues('remattempt');
+var userAttempt = 0;
+var intervalId;
+var remed =  getCoValues('remediation');
+disableNext_ansCorrect = getCoValues('disableNxtUntilCrct');
+isMultipleFIB = (correctAnswer4 instanceof Array) ? "true" : "false";function formatCorrectAnswer4(arr){
+for(var i=0;i<correctAnswer4.length;i++){
+var str = correctAnswer4[i].toString();
+str = str.replace(/(&nbsp;)*/g, "");
+str = trimWhiteSpaces(str);
+str = str.toString().fulltrim();
+if(str.indexOf(", ") != -1){
+correctAnswer4[i] = [];
+correctAnswer4[i] = str.split(", ");
+}
+else{
+correctAnswer4[i] = [];
+correctAnswer4[i].push(str);
+} }  }
+
+
+  function checkAllMarked4(){
+var checked = true;
+$('#questiontext4 :input').each(function() {
+var str = $(this).val();
+str = trimWhiteSpaces(str);
+if(str == "" || str == null){
+checked = false;
+}
+});
+return checked;
+}
+ $('#submitbut4').click(function(){
+if(!checkAllMarked4()){
+ ShowAlert('Please provide all the response(s) and click on Next button to continue.');
+return false;
+  }
+ if (trackObjects[SeqID].advancetonagivate == "yes" && remed4 != "yes"){ callAdvancetoNext(); }else{
+
+formatCorrectAnswer4(correctAnswer4);
+userAnswer = [];
+var allCorrect = 0;
+$('#questiontext4 :input').each(function(){
+var userTxt = trimWhiteSpaces($(this).val());
+userTxt = userTxt.replace(/(&nbsp;)*/g, "");
+userTxt = trimWhiteSpaces(userTxt);
+userTxt = userTxt.toString().fulltrim();
+if(userTxt != null || userTxt != ""){
+userAnswer.push(userTxt);
+}
+});
+var validateTxt = userAnswer.toString();
+if(validateTxt.length>0){
+for(var i=0;i<userAnswer.length;i++){
+for(var j=0;j<correctAnswer4[i].length;j++){
+if(userAnswer[i].toString().toLowerCase() == correctAnswer4[i][j].toString().toLowerCase().fulltrim()){
+allCorrect++;
+} }
+}
+enableSolutionButton(4);
+}
+else{
+ShowAlert('Please provide a response and click on the Submit button to continue.');
+return false;
+}
+if(allCorrect == correctAnswer4.length){
+ if(trackObjects[SeqID].showfeedbacktype == 'page'){
+  $('#feedbackContainer4 #correctfeedback').css("display", "");
+}else{
+  showFeedbackPopup($('#feedbackContainer4 #correctfeedback').html());
+ }
+   $('#feedbackContainer4 #incorrectfeedback').css("display", "none") 
+} else{ 
+  if(trackObjects[SeqID].showfeedbacktype == 'page'){
+  $('#feedbackContainer4 #incorrectfeedback').css("display", "");
+ }else{
+  showFeedbackPopup($('#feedbackContainer4 #incorrectfeedback').html());
+}
+    $('#feedbackContainer4 #correctfeedback').css("display", "none")
+}
+if(trackObjects[SeqID].disableControls == "yes" || remed == "yes"){
+
+$("#submitbut4").unbind('click');
+
+ $("#submitbut4").fadeTo("slow", 0.5);
+
+}
+
+}
+
+});
+$('#hintbut4').bind('click', function(){showHintLayer($(this))});</script>
+</td></tr>
+ <TR valign="top">
+<td valign="top"><table id=""  cellspacing=0 cellpadding=3 width="100%" >
+</table>
+</TD>
+</TR>
+<TR valign="top">
+<TD valign="top"><table id="" cellspacing=0 cellpadding=3 width="100%" >
+<div id='popupDiv' title="Popup Title" style='display:none'></div>
+<div id='audioPoster' style='position:absolute; display:none'><!--<img src="images/audioIcon.jpg"/>--></div>
+<div id='videoPoster' style='position:absolute; display:none'><!--<img src="images/videoIcon.jpg"/>--></div>
+</table></TD>
+</TR>
+</TABLE>
+<style>.instcontentbg { BACKGROUND -REPEAT : no -repeat }</style>
+       
+<script type="text/javascript">
+var QuestionNo;
+var order;
+
+
+pageid='_0'
+function setUserResponse() {
+ if(isMultipleFIB == "false"){
+    setCOValues('correctAnswer', correctAnswer4);
+    if(pages[SeqID] != undefined) {
+        document.getElementById("txtAnswer").value = getCoValues('useranswer') == undefined ? '' : getCoValues('useranswer');
+        document.getElementById("txtAnswer").focus();
+    }
+    else document.getElementById("txtAnswer").focus();
+}
+else{
+var useranswer = "";
+setCOValues('correctAnswer', correctAnswer4);
+if(pages[SeqID] != undefined){
+useranswer = getCoValues('useranswer') == undefined ? '' : getCoValues('useranswer');
+if (useranswer == "") return;
+setResponses(useranswer);
+}
+}
+}
+
+$("#instmaintable :input").bind("keyup", function(event, ui) { 
+var str = $(this).val();
+  if ((str.indexOf("/") != -1) || (str.indexOf("\\") != -1) || (str.indexOf(" '") != -1) || (str.indexOf(",") != -1) || (str.indexOf('" ') != -1)) {
+ShowAlert("Please don’t include these special characters   /,\\'  in blank.");
+str = str.replace(/[\',\{\}\[\]\\\/]/gi, '');
+$(this).val(str);
+}
+});
+
+function setResponses(arr){
+//JIRA ID : INST-15636
+try{
+  if(typeof(arr) == "string"){
+    arr = arr.split(',');
+  }
+}catch(e){}
+$("#instmaintable :input").each(function(index){
+$(this).val(arr[index]);
+});
+}
+
+function trimWhiteSpaces (str) {
+return str.replace(/^\s\s*/, '').replace(/\s\s*$/, '');
+}
+
+function getUserResponse() {
+	  	if(isMultipleFIB == "false"){
+	  	return document.getElementById("txtanswer_4_1").value.toString().fulltrim();
+}
+else{
+var notAttempted = '';
+var answerArr = [];
+var allChecked = true;
+$("#questiontext4 :input").each(function(){
+var userTxt = trimWhiteSpaces($(this).val());
+if(userTxt == null || userTxt == ""){
+$(this).val('')
+allChecked = false;
+}
+else{
+answerArr.push($(this).val());
+}
+})
+if(allChecked == true){
+return answerArr;
+}
+else{
+return notAttempted;
+}
+}
+}
+
+function checkPassStatus(useranswer) {
+if(isMultipleFIB == "false"){
+if(pages[SeqID] != undefined) {
+     var arrCorrectAnswers = correctAnswer4.split(",")
+     var correct = false;
+     for (i=0;i<arrCorrectAnswers.length;i++) {
+         if (useranswer.toLowerCase() == arrCorrectAnswers[i].toLowerCase()) {
+             correct = true;
+             break;
+		    }
+	    }
+	    return correct;
+}
+}
+else{
+if(pages[SeqID] != undefined) {
+formatCorrectAnswer4(correctAnswer4);
+var allCorrect = 0;
+userAnswer = [];
+$("#instmaintable :input").each(function(){
+if($(this).val() != null || $(this).val() != ""){
+var str = $(this).val().toString().fulltrim();
+str = str.replace(/(&nbsp;)*/g, "");
+userAnswer.push(str);
+}
+});
+for(var i=0;i<userAnswer.length;i++){
+for(var j=0;j<correctAnswer4[i].length;j++){
+if(userAnswer[i].toLowerCase().fulltrim() == correctAnswer4[i][j].toLowerCase().fulltrim()){
+allCorrect++;
+ }
+ }
+ }
+ if(allCorrect == correctAnswer4.length){
+return true;
+}
+else{
+return false;
+ }
+ }
+ }
+ }
+$("#submitbut").hover(function(){
+     $(this)[0].setAttribute('out', $(this)[0].getAttribute('src'));
+     $(this)[0].setAttribute('src', $(this)[0].getAttribute('onover'));
+     $(this).addClass('on');
+}, function(){
+     $(this)[0].setAttribute('src', $(this)[0].getAttribute('out'));
+     $(this).removeClass('on');
+});
+<!--instancyautoplayaudio-->
+<!--instancypagetextresponses-->
+</script>

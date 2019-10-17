@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentobject id="4946a679-74e9-4616-ba16-c68df690109f" name="9 questions" applytoall="False" layoutStyle="templateview" postview="false" selectedlanguage="english">
+  <content>
+    <page id="08cb1447-e76c-4aea-9e2c-7e19f4c2e944" name="TF" label="TF" enabled="1" type="TRUEFALSE" excludefromcount="false" url="08cb1447-e76c-4aea-9e2c-7e19f4c2e944.xml" vtoccuepoint="1" visible="true" />
+    <page id="302e3e72-a2e5-4d14-9106-4aba732cfb62" name="MS" label="MS" enabled="1" type="MULTIPLESELECT" excludefromcount="false" url="302e3e72-a2e5-4d14-9106-4aba732cfb62.xml" vtoccuepoint="1" visible="true" />
+    <page id="949ded4b-9680-427d-b182-2a44a60f34be" name="SS" label="SS" enabled="1" type="SINGLESELECT" excludefromcount="false" url="949ded4b-9680-427d-b182-2a44a60f34be.xml" vtoccuepoint="1" visible="true" />
+    <page id="40a8728e-92fb-4ae0-becc-4cc8cb0e02b2" name="FIB" label="FIB" enabled="1" type="FILLINTHEBLANK" excludefromcount="false" url="40a8728e-92fb-4ae0-becc-4cc8cb0e02b2.xml" vtoccuepoint="1" visible="true" />
+    <page id="5a4fa1c7-f78f-4aaf-a59b-6e633bd9d2a0" name="EQ" label="EQ" enabled="1" type="LONGANSWER" excludefromcount="false" url="5a4fa1c7-f78f-4aaf-a59b-6e633bd9d2a0.xml" vtoccuepoint="1" visible="true" />
+    <page id="67e1f68f-0bd0-4e55-86c9-367c844c8a14" name="DD" label="DD" enabled="1" type="DRAGANDDROP" excludefromcount="false" url="67e1f68f-0bd0-4e55-86c9-367c844c8a14.xml" vtoccuepoint="1" visible="true" />
+    <page id="f26a132c-f6d4-4d1b-8a87-1433e3541f63" name="M" label="M" enabled="1" type="MATRIX" excludefromcount="false" url="f26a132c-f6d4-4d1b-8a87-1433e3541f63.xml" vtoccuepoint="1" visible="true" />
+    <page id="f7fb73d4-0613-47af-9188-4cb83893bb52" name="R" label="R" enabled="1" type="RATING" excludefromcount="false" url="f7fb73d4-0613-47af-9188-4cb83893bb52.xml" vtoccuepoint="1" visible="true" />
+    <page id="ee27b2a0-b353-47ad-822e-05d446e42439" name="S" label="S" enabled="1" type="sequence" excludefromcount="false" url="ee27b2a0-b353-47ad-822e-05d446e42439.xml" vtoccuepoint="1" visible="true" />
+  </content>
+  <sequencing completioncriteria="" trackscorefor="" />
+  <navigation enablepagetransition="no" transitionstyle="Left" showtocbydefault="yes" allowtocshowhide="yes" expanded="yes" show="all" restartpgnumfortopic="no" objecttype="co" autobookmarking="yes" completioncriteria="progress" completioncondition="100" randomizequestions="no" autoexpand="no" questionlevelfeedback="yes" allowexpand="yes" trackscore="" ShowDiscussions="no" />
+  <lastVisitedPage id="P*67e1f68f-0bd0-4e55-86c9-367c844c8a14" />
+  <profilesecurity enable="false" />
+  <references title="Resources" />
+</contentobject>

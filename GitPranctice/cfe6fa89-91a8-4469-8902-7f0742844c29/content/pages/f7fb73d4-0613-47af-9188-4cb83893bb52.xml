@@ -1,0 +1,65 @@
+<page id="f7fb73d4-0613-47af-9188-4cb83893bb52" name="R" type="RATING" version="1.2" category="ASSESSMENT" cuein="" cueout="" showpage="true" disablenav="false" label="R" autoplay="false" isbootstrap="true">
+  <deviceoutput id="cfe6fa89-91a8-4469-8902-7f0742844c29" type="1" label="HTML" master="true" skinreference="" all="yes" image="yes" video="yes" audio="yes" flash="yes" text="yes" notes="yes" transcript="yes" bulletnumbering="yes" autoorganize="yes" bgaudio="yes" bgimage="yes" bgcolor="yes" border="yes" popup="yes" hyperlink="yes" flipover="yes" tables="yes" hotspot="yes" hr="yes" html="yes">
+    <layout repeatbgimage="no" pagetitle="no" width="950" height="400" skinwidth="900" skinheight="400" bg="false" bgcolor="0xFFFFFF" scroll="false" border="0" bordercolor="" bgimage="" bgimagesrc="" bgaudio="" bgaudiosrc="" transcript="" bgalpha="100" bgmediumimage="" bgmediumimagesrc="" bglowimage="" bglowimagesrc="" bgmediumaudio="" bgmediumaudiosrc="" bglowaudio="" bglowaudiosrc="" controls="false" print="no" excludefromsearch="no">
+      <pageobject id="4eb41dee-0126-7485-7c36-95e7e0a8c18d" type="text" width="830" height="60" scrolling="yes" zindex="0" halign="pixels" valign="pixels" hoffset="0" voffset="0" group="QUESTION" poid="824da730-a18a-0ae0-daa9-89e2564134aa" border="false" bordercolor="0xCCCCCC" thick="1" mediumpoid="" mediumsrc="" lowpoid="" lowsrc="" bgcolor="0xFFFFFF" bg="false" margin="false" marginvalues="0 0 0 0" padding="false" paddingvalues="0 0 0 0" sectionid="89d78225-a42d-01d6-7cb7-0ece9708c356" columnid="5051b898-6a85-303a-70e3-76d8a9acb76e" borderstyle="dashed" />
+      <pageobject id="0b4b73e9-7616-c18e-9690-054deeb84962" type="text" width="520" height="60" scrolling="yes" zindex="0" halign="pixels" valign="pixels" hoffset="0" voffset="0" group="CORRECTFEEDBACK" poid="984e0e77-7cdc-a624-b787-1642242cb1c9" border="false" bordercolor="0xCCCCCC" thick="1" mediumpoid="" mediumsrc="" lowpoid="" lowsrc="" bgcolor="0xFFFFFF" bg="false" margin="false" marginvalues="0 0 0 0" padding="false" paddingvalues="0 0 0 0" sectionid="89d78225-a42d-01d6-7cb7-0ece9708c356" columnid="5051b898-6a85-303a-70e3-76d8a9acb76e" borderstyle="dashed" />
+      <pageobject id="4cdcdda9-db59-3270-be7e-6555b9d9bd87" type="text" width="520" height="60" scrolling="yes" zindex="7" halign="pixels" valign="pixels" hoffset="10" voffset="1" group="section" poid="e04ac3e2-4c3b-41c4-0adb-24c13d3b66d7" border="false" bordercolor="0xCCCCCC" thick="1" mediumpoid="" mediumsrc="" lowpoid="" lowsrc="" bgcolor="0xFFFFFF" bg="false" margin="false" marginvalues="0 0 0 0" padding="false" paddingvalues="0 0 0 0" sectionid="dda36acb-823d-c41e-1466-9c6839a3aea5" columnid="cab12372-139b-e8cb-18de-c67b889bad0a" borderstyle="dashed" borderradius="1" label="text" />
+      <pageobject id="7ed22ab4-85bc-87b0-36aa-874613865d22" type="text" width="520" height="60" scrolling="yes" zindex="9" halign="pixels" valign="pixels" hoffset="10" voffset="1" group="section" poid="92082034-40e5-0164-8372-32ac7c52aa29" border="false" bordercolor="0xCCCCCC" thick="1" mediumpoid="" mediumsrc="" lowpoid="" lowsrc="" bgcolor="0xFFFFFF" bg="false" margin="false" marginvalues="0 0 0 0" padding="false" paddingvalues="0 0 0 0" sectionid="5dca4041-7c7b-95c0-4955-53a73ec49e68" columnid="cd26bcd8-2c39-0eb3-b9ae-eadd6c5249be" borderstyle="dashed" borderradius="1" label="text" />
+      <pageobject id="b07baac6-ad7c-7d77-2507-429bad0b8158" type="question" width="830" height="32" zindex="0" voffset="10" hoffset="10" halign="pixels" valign="pixels" group="section" columnid="5051b898-6a85-303a-70e3-76d8a9acb76e" sectionid="89d78225-a42d-01d6-7cb7-0ece9708c356" difficulty="easy" />
+      <pageobject id="89d78225-a42d-01d6-7cb7-0ece9708c356" type="section" width="99%" height="150" scrolling="yes" zindex="1" halign="pixels" valign="pixels" hoffset="10" voffset="10" group="PAGE" poid="0ae66c08-6ce8-ecd4-99a4-7e83c72ab090" border="false" bordercolor="0xCCCCCC" thick="0" mediumpoid="" mediumsrc="" lowpoid="" lowsrc="" bgcolor="0xFFFFFF" bg="false" bgalphasection="100" margin="false" marginvalues="0 0 0 0" padding="false" paddingvalues="0 0 0 0" borderstyle="solid" label="section" />
+      <pageobject id="dda36acb-823d-c41e-1466-9c6839a3aea5" type="section" width="99%" height="150" scrolling="yes" zindex="6" halign="pixels" valign="pixels" hoffset="10" voffset="50" group="PAGE" poid="5a3d67b6-2473-5e18-ea11-92758831d764" border="false" bordercolor="0xCCCCCC" thick="0" mediumpoid="" mediumsrc="" lowpoid="" lowsrc="" bgcolor="0xFFFFFF" bg="false" bgalphasection="100" margin="false" marginvalues="0 0 0 0" padding="false" paddingvalues="0 0 0 0" borderstyle="solid" layerid="8ed901e2-a421-ee62-ede4-dc3366856749" />
+      <pageobject id="5dca4041-7c7b-95c0-4955-53a73ec49e68" type="section" width="99%" height="150" scrolling="yes" zindex="8" halign="pixels" valign="pixels" hoffset="10" voffset="50" group="PAGE" poid="d025d041-ed72-b56b-57e8-1e8dc193423c" border="false" bordercolor="0xCCCCCC" thick="0" mediumpoid="" mediumsrc="" lowpoid="" lowsrc="" bgcolor="0xFFFFFF" bg="false" bgalphasection="100" margin="false" marginvalues="0 0 0 0" padding="false" paddingvalues="0 0 0 0" borderstyle="solid" layerid="1632c9e4-25c2-1614-1459-e4a94b860727" />
+      <pageobject id="682aaa19-d39a-4528-01e7-b720d2e00d0e" type="rating" width="510" height="84" zindex="2" voffset="80" hoffset="10" halign="pixels" valign="pixels" group="section" headrowcolor="0xffffff" rowcolor="0xfafafa" altrowcolor="0xcccccc" headrowcoloralpha="100" rowcoloralpha="100" altrowcoloralpha="100" bordercolor="0xCCCCCC" thick="1" columnid="5051b898-6a85-303a-70e3-76d8a9acb76e" sectionid="89d78225-a42d-01d6-7cb7-0ece9708c356" selectiontype="checkbox">
+        <colheading>
+          <column id="4d307405-66da-c6ba-b612-6e03365807b6" poid="c7c958ab-0146-2544-b111-9028a8b26654" />
+          <column id="ead20862-657e-6530-b3b1-b041087c0cda" poid="72a2c661-c0a9-e3dd-ee6d-54ae234dc701" />
+          <column id="469ab7c7-93ae-07e3-3e2a-a447ae4ae0a7" poid="82bc9694-2986-a5c9-3b8d-2314bc16a5e6" />
+        </colheading>
+        <rowsdata>
+          <rows id="ca3758e5-bea3-4a54-4160-507d2b429335">
+            <row id="61d46e1a-c085-8898-ea44-394ea46cb95e" poid="8eabb21a-b616-2e0d-4293-b36dbea32963" />
+            <row id="0eb23822-b093-6b55-611b-3d1411cdec18" poid="5dd6ccc6-843b-0669-81b4-1d5b2821ca9c" />
+          </rows>
+          <rows id="a159ea24-1bb5-0d70-8660-c8863d015ab1">
+            <row id="b4c8d243-91e0-4322-1301-506a73229886" poid="302e30ea-09c9-bcda-1198-356bcc28d26a" />
+            <row id="e567a9c6-485d-21a0-6808-88375c58d48c" poid="51843227-4334-d521-e7c5-32cade23d52b" />
+          </rows>
+        </rowsdata>
+      </pageobject>
+      <pageobject id="ea414c35-34e2-8404-3ae9-006091ed2c4d" type="feedback" width="525" height="55" zindex="5" voffset="132" hoffset="10" halign="pixels" valign="pixels" group="section" margin="false" marginvalues="0 0 0 0" padding="false" paddingvalues="2 7 2 0" columnid="5051b898-6a85-303a-70e3-76d8a9acb76e" sectionid="89d78225-a42d-01d6-7cb7-0ece9708c356" />
+      <pageobject id="3950c36c-d388-ae78-0263-d2693e2e0e4e" type="submit" width="65" height="15" zindex="3" voffset="235" hoffset="10" halign="pixels" valign="pixels" group="section" margin="false" marginvalues="8 0 8 0" padding="false" paddingvalues="0 0 0 0" columnid="5051b898-6a85-303a-70e3-76d8a9acb76e" sectionid="89d78225-a42d-01d6-7cb7-0ece9708c356" />
+    </layout>
+    <timeline showtwindow="true" height="100" width="500" voffset="500" hoffset="50" totaltime="0" />
+    <popups width="500" height="300" hoffset="100" voffset="100" />
+    <rules />
+    <questiontab>
+      <qtype unicode="1" name="Mode Type" type="checkbox">
+        <node id="1" name="Exam Mode" value="true" />
+        <node id="2" name="Review Mode" value="false" />
+        <node id="3" name="Cram Mode" value="false" />
+      </qtype>
+      <qtype unicode="2" name="Categories" type="checkbox">
+        <node id="4" name="Definitions" value="false" />
+        <node id="5" name="Math/Formula" value="false" />
+      </qtype>
+      <qtype unicode="3" name="Importance" type="combobox" select="1" attributeid="6">
+        <node id="1" name="More" value="More" />
+        <node id="2" name="Less" value="Less" />
+      </qtype>
+      <qtype unicode="4" name="Difficulty" type="combobox" select="1" attributeid="7">
+        <node id="1" name="Easy" value="Easy" />
+        <node id="2" name="Medium" value="Medium" />
+        <node id="3" name="Hard" value="Hard" />
+      </qtype>
+      <qtype unicode="5" name="Version" type="combobox" select="1" attributeid="8">
+        <node id="1" name="V1" value="V1" />
+        <node id="2" name="V2" value="V2" />
+        <node id="3" name="V3" value="V3" />
+      </qtype>
+    </questiontab>
+    <layers>
+      <layer id="8ed901e2-a421-ee62-ede4-dc3366856749" group="hints" title="Hint" width="500" height="250" voffset="65" hoffset="165" bg="true" bgcolor="0xF1F1F1" scroll="false" border="false" bordercolor="0xCCCCCC" bgimage="" bgimagesrc="" bgalpha="100" thick="1" language="english" objectreferenceid="eaa84b12-ec84-0c25-98c6-2330094975b9" showclosebutton="true" closebuttonposition="righttop" fullscreen="false" />
+      <layer id="1632c9e4-25c2-1614-1459-e4a94b860727" group="solution" title="Solution" width="500" height="250" voffset="65" hoffset="165" bg="true" bgcolor="0xF1F1F1" scroll="false" border="false" bordercolor="0xCCCCCC" bgimage="" bgimagesrc="" bgalpha="100" thick="1" language="english" objectreferenceid="e825704c-8184-1b21-019d-333c7102e57e" showclosebutton="true" closebuttonposition="righttop" fullscreen="false" />
+    </layers>
+  </deviceoutput>
+</page>

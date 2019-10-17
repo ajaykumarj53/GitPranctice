@@ -1,0 +1,481 @@
+
+/*#video-container {
+    width: 630px;
+    height: 310px;
+    position: relative;
+    border:1px solid gray;
+    margin:0 auto;
+}
+
+#video-controls {
+	margin-top:-6px;
+	padding: 5px;
+	
+	-webkit-transition: opacity .3s;
+	-moz-transition: opacity .3s;
+	-o-transition: opacity .3s;
+	-ms-transition: opacity .3s;
+	transition: opacity .3s;
+    background:#f0f1f1;
+
+}
+
+#video-container:hover #video-controls {
+	
+}
+.play:focus ,.mute:focus,.pause:focus{
+    border:none;
+}
+.play {
+    background:url(../images/play1.png);
+     width:35px;
+    border:none;
+    height:30px;
+    margin-right:5px;
+   
+}
+.mute{
+  background:url(../images/audio.jpg) no-repeat;
+  width:26px;
+  height:25px;
+  border:none;
+ 
+}
+
+
+button:hover {
+	cursor: pointer;
+}
+
+#seek-bar {
+	width: 360px;
+    background:red;
+}
+
+#volume-bar {
+	width: 60px;
+}
+.controlbutton-content{
+    background:#f0f1f1;
+    text-align:center;
+    padding:10px;
+    position:relative;
+}
+.controlbutton-content button{
+
+    width:35px;
+    border:none;
+    height:30px;
+    display:inline-block;
+    margin-right:10px;
+   
+  
+
+}
+
+.duration-text{
+    display:inline-block;
+    padding-left:20px;
+    
+    
+}
+
+#video-text,#video-duration{
+
+    
+   padding:10px;
+    display:inline-block;
+    
+
+
+}
+.upload{
+    background:url(../images/upload.png);
+}
+.share{
+    background:url(../images/share.png);
+}
+.submit{
+    background:url(../images/submit.png);
+}
+.sample-videos{
+    background:url(../images/sample.png);
+}
+.pause{
+    background:url(../images/pause.png);
+    width:35px;
+    border:none;
+    height:30px;
+     margin-right:5px;
+}
+.record{
+     background:url(../images/record.png);
+     width:35px;
+    border:none;
+    height:30px;
+   
+}
+.ui-slider-handle:nth-child(2){
+    display:none;
+}
+#storlekslider{
+    
+    height:8px;
+
+}
+.overlap {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#000;
+    opacity:0.7;
+    z-index:100;
+    display:none;
+}
+.modal-popup {
+
+    width:50%;
+    height:50%;
+    position:absolute;
+    top:10%;
+    left:20%;
+    background:#fff;
+    border:1px solid gray;
+    z-index:1001;
+    display:none;
+    z-index:101;
+    
+}
+.modal-popup h1 {
+    text-align:center;
+    text-transform:capitalize;
+    font-size:18px;
+}
+.modal-popup a {
+    position:absolute;
+    top:20px;
+    right:20px;
+    cursor:pointer;
+}
+
+.overlap2 {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#000;
+    opacity:0.7;
+    z-index:100;
+    display:none;
+}
+.modal-popup-sample {
+
+    width:35%;
+    height:70%;
+    position:absolute;
+    top:10%;
+    left:30%;
+    background:#fff;
+    border:1px solid gray;
+    z-index:1001;
+    display:none;
+    z-index:1001;
+    overflow:hidden;
+   
+    
+}
+.modal-popup-sample a {
+    position:absolute;
+    top:20px;
+    right:20px;
+    cursor:pointer;
+}
+    .modal-popup-sample h3 {
+        font-size:18px;
+        padding-left:30px;
+    }
+    .sm-video-content {
+
+       
+        padding:32px;
+        height:70%;
+        overflow:auto;
+
+    }
+    .essayVidPlayBtn{
+        position:absolute;top:40%;
+        left:45%;
+      
+    }
+    .activeBtn{
+        display:block !important;
+    }
+    #slideAudio {
+        display:inline-block;width:80px;
+        margin-right:5px;
+    }
+    .ui-widget-header{
+
+        height:8px;
+        background:#808285;
+        border:1px solid #d9dada;
+    }
+    .ui-widget-content{
+        border:1px solid #d9dada;
+        background:#bbbdc0;
+
+    }
+    .ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl,.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr,.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr{
+        border-radius:0;
+    }*/
+
+
+div[id^='video-container']{
+    /*width: 500px;
+    height: 200px;
+    position: relative;*/
+    border:1px solid gray;
+    /*margin:0 auto;*/   
+}
+
+div.vidcapture{    
+    margin-top:20px;
+    margin-bottom:90px;
+}
+
+div.imgcapture{   
+    margin-top:20px;
+    margin-bottom:50px;
+}
+
+ div[id^='vidControls']{
+	/*margin-top:-6px;*/
+	padding: 5px;	
+	-webkit-transition: opacity .3s;
+	-moz-transition: opacity .3s;
+	-o-transition: opacity .3s;
+	-ms-transition: opacity .3s;
+	transition: opacity .3s;
+    background:#f0f1f1;
+}
+
+div[id^='video-container']:hover  div[id^='vidControls'] {
+	
+}
+.play:focus ,.mute:focus,.pause:focus{
+    border:none;
+}
+.play {
+    background:url(../images/play1.png);
+     width:35px;
+    border:none;
+    height:30px;
+    margin-right:3%;   
+}
+.mute{
+  background:url(../images/audio.jpg) no-repeat;
+  width:26px;
+  height:25px;
+  border:none;
+  margin-top: 5px;
+}
+button:hover {
+	cursor: pointer;
+}
+#seek-bar {
+	width: 360px;
+    background:red;
+}
+#volume-bar {
+	width: 60px;
+}
+.controlbutton-content{
+    background:#f0f1f1;
+    text-align:center;
+    padding:10px;
+    position:relative;
+}
+.controlbutton-content button{
+    width:35px;
+    border:none;
+    height:30px;
+    display:inline-block;
+    margin-right:10px;
+}
+
+.duration-text{
+    display:inline-block;
+    padding-left:3%;
+}
+
+span[id^='vidDurTxt'],span [id^='durationVideo']{    
+     padding:5px;
+    display:inline-block;
+}
+.upload{
+    background:url(../images/upload.png);
+}
+.share{
+    background:url(../images/share.png);
+}
+.submit{
+    background:url(../images/submit.png);
+}
+.sample-videos{
+    background:url(../images/sample.png);
+}
+.pause{
+    background:url(../images/pause.png);
+    width:35px;
+    border:none;
+    height:30px;
+     margin-right:3%;
+}
+.record{
+     background:url(../images/record.png);
+     width:35px;
+    border:none;
+    height:30px;   
+}
+/*
+.ui-slider-handle:nth-child(2){
+    display:none;
+}*/
+div[id^='strokeSliderVideo']{    
+    height:8px;
+    width:30%;
+}
+.overlap {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#000;
+    opacity:0.7;
+    z-index:100;
+    display:none;
+}
+.modal-popup {
+    width:50%;
+    height:50%;
+    position:absolute;
+    top:10%;
+    left:20%;
+    background:#fff;
+    border:1px solid gray;
+    z-index:1001;
+    display:none;
+    z-index:101;    
+}
+.modal-popup h1 {
+    text-align:center;
+    text-transform:capitalize;
+    font-size:18px;
+}
+.modal-popup a {
+    position:absolute;
+    top:20px;
+    right:20px;
+    cursor:pointer;
+}
+
+.overlap2 {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#000;
+    opacity:0.7;
+    z-index:100;
+    display:none;
+}
+.modal-popup-sample {
+    width:35%;
+    height:70%;
+    position:absolute;
+    top:10%;
+    left:30%;
+    background:#fff;
+    border:1px solid gray;
+    z-index:1001;
+    display:none;
+    z-index:1001;
+    overflow:hidden;      
+}
+.modal-popup-sample a {
+    position:absolute;
+    top:20px;
+    right:20px;
+    cursor:pointer;
+}
+.modal-popup-sample h3 {
+    font-size:18px;
+    padding-left:30px;
+}
+.sm-video-content {       
+    padding:32px;
+    height:70%;
+    overflow:auto;
+}
+.essayVidPlayBtn{
+    position:absolute;top:40%;
+    left:45%;      
+}
+.activeBtn{
+    display:block !important;
+}
+div[id^='slideAudioVideo'] {
+    display:inline-block;
+    width:15%;
+    margin-right:5px;
+    height:8px;
+}
+div[id^='vidControls'] > button, div[id^='vidControls'] > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+/*.ui-widget-header{
+
+    height:8px;
+    background:#808285;
+    border:1px solid #d9dada;
+}
+.ui-widget-content{
+    border:1px solid #d9dada;
+    background:#bbbdc0;
+
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl,.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr,.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr{
+    border-radius:0;
+}*/
+.ui-widget-header{
+
+	 border:none;
+   
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+	border:none;
+}
+.captureloader{
+    position:absolute;	
+	width:100%;
+	height:100%;
+	background-color:#fafafa;
+	background-image:url()
+}
+.captureloader img{
+    content:url(../images/loading.gif);
+    position:absolute;
+	top:40%;
+    left:45%;	
+}
+.captureloader span{   
+    position:absolute;
+	top:60%;
+    left:40%;	
+}
